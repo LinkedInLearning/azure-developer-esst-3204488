@@ -1,0 +1,136 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login 
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+
+################################################
+# Create AI Services
+################################################
+$aiName = "lilOpenAIService"
+$aiKind = "OpenAI"
+$aiSku = "S0"
+$aiLocation = "swedencentral"
+
+az cognitiveservices account create `
+    --name $aiName `
+    --resource-group $resourceGroup `
+    --location $aiLocation `
+    --kind $aiKind `
+    --sku $aiSku
+
+################################################
+# Deploy GPT 4 Vision Model
+################################################
+$modelDeploymentName = "gpt4vision"
+$modelName = "gpt-4"
+$modelVersion = "vision-preview"
+$modelSku = "Standard"
+$modelSkuCapacity = "1"
+$modelFormat = "OpenAI"
+
+az cognitiveservices account deployment create `
+    --name $aiName `
+    --resource-group  $resourceGroup `
+    --deployment-name $modelDeploymentName `
+    --model-name $modelName `
+    --model-version $modelVersion `
+    --sku-name $modelSku `
+    --sku-capacity $modelSkuCapacity `
+    --model-format $modelFormat
+
+
+####TODO: REMOVE
+$aiName = "RobEichGPT4Turbo"
+$resourceGroup = "FTA.AI.OpenAISample"
+
+$aiKey = ( `
+    az cognitiveservices account keys list `
+    --name $aiName `
+    --resource-group $resourceGroup `
+    --query key1 `
+    --output tsv
+)
+
+$aiEndpoint = ( `
+    az cognitiveservices account show `
+    --name $aiName `
+    --resource-group $resourceGroup `
+    --query properties.endpoint `
+    --output tsv
+)
+
+################################################
+# Create Storage Account
+################################################
+$storageAccountName = "lilopenaistorage"
+$storageAccountSku = "Standard_LRS"
+
+az storage account create `
+    --name $storageAccountName `
+    --resource-group $resourceGroup `
+    --location $location `
+    --sku $storageAccountSku
+
+# create container in storage account
+$containerName = "lilopenaicontainer"
+
+az storage container create `
+    --name $containerName `
+    --account-name $storageAccountName
+
+# upload local file to container    
+$imageFile = "./03_AI/03_OpenAI/assets/Input/LittleMermaid.jpg"
+
+az storage blob upload `
+    --container-name $containerName `
+    --file $imageFile `
+    --name "LittleMermaid.jpg" `
+    --account-name $storageAccountName
+
+# create SAS for container with public access
+$containerSas = ( `
+    az storage container generate-sas `
+    --name $containerName `
+    --account-name $storageAccountName `
+    --permissions r `
+    --expiry 2030-01-01T00:00:00Z `
+    --output tsv
+)
+
+$imageUrl = "https://$storageAccountName.blob.core.windows.net/$containerName/LittleMermaid.jpg?$containerSas"
+
+
+################################################
+# Create Configuration File
+################################################
+$configurationFile = "./03_AI/03_OpenAI/CreateEnv/Configuration.env"
+
+# Add line to file
+Add-Content -Path $configurationFile -Value "LI4DEVS.OPENAI.AIKEY=$aiKey"
+Add-Content -Path $configurationFile -Value "LI4DEVS.OPENAI.AIENDPOINT=$aiEndpoint"
+Add-Content -Path $configurationFile -Value "LI4DEVS.OPENAI.MODELDEPLOYMENTNAME=$modelDeploymentName"
+Add-Content -Path $configurationFile -Value "LI4DEVS.OPENAI.IMAGEURL=$imageUrl"
+

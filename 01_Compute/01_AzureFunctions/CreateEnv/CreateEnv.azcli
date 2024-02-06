@@ -1,0 +1,75 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login 
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+################################################
+# Create Service Bus Namespace
+################################################
+$serviceBusNamespace = "lil-azure4devs"
+$serviceBusSku = "Standard"
+$serviceBusQueue = "lil-azure4devs-queue"
+
+az servicebus namespace create `
+    --name $serviceBusNamespace `
+    --resource-group $resourceGroup `
+    --sku $serviceBusSku
+
+az servicebus queue create `
+    --name $serviceBusQueue `
+    --namespace-name $serviceBusNamespace `
+    --resource-group $resourceGroup
+
+$serviceBusConnectionString = (
+    az servicebus namespace authorization-rule keys list `
+        --name RootManageSharedAccessKey `
+        --namespace-name $serviceBusNamespace `
+        --resource-group $resourceGroup `
+        --query 'primaryConnectionString' `
+        --output tsv
+)
+
+################################################
+# Create Configuration File
+################################################
+$configurationFile = "./01_Compute/01_AzureFunctions/CreateEnv/Configuration.env"
+
+# Add line to file
+Add-Content -Path $configurationFile -Value "LI4DEVS.FUNCTIONS.SB.CONNECTIONSTRING=$serviceBusConnectionString"
+Add-Content -Path $configurationFile -Value "LI4DEVS.FUNCTIONS.SB.QUEUE=$serviceBusQueue"
+
+
+################################################
+# Test Azure Function 
+################################################
+curl -X GET http://localhost:7071/api/MultiOutputBinding?productId=4711
+
+# get messages from service bus queue
+az servicebus queue show `
+    --name $serviceBusQueue `
+    --namespace-name $serviceBusNamespace `
+    --resource-group $resourceGroup `
+    --query 'countDetails.activeMessageCount' `
+    --output tsv

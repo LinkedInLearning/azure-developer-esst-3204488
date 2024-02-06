@@ -1,0 +1,2122 @@
+[
+  {
+    "Confidence": 0.8610968,
+    "Text": "Hey here\u0027s Robert I\u0027m calling on behalf of contoso and I need information for a specific product you\u0027re offering I\u0027m interested in training shoes specifically in your product with the ID FR-01 my customer number is 984-AB-489 and please call me back on my mobile which is 014454353535",
+    "LexicalForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the ID FR dash zero one my customer number is nine eight four dash AB dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "NormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the ID FR-01 my customer number is 984-AB-489 and please call me back on my mobile which is 014454353535",
+    "MaskedNormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr-01 my customer number is 984-ab-489 and please call me back on my mobile which is 014454353535",
+    "Words": [
+      {
+        "Confidence": 0.8770559,
+        "Duration": 3200000,
+        "Offset": 12600000,
+        "Word": "hey"
+      },
+      {
+        "Confidence": 0.6384205,
+        "Duration": 2400000,
+        "Offset": 15800000,
+        "Word": "here\u0027s"
+      },
+      {
+        "Confidence": 0.8592576,
+        "Duration": 4400000,
+        "Offset": 18200000,
+        "Word": "robert"
+      },
+      {
+        "Confidence": 0.8623548,
+        "Duration": 2000000,
+        "Offset": 23800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.99213636,
+        "Duration": 3600000,
+        "Offset": 25800000,
+        "Word": "calling"
+      },
+      {
+        "Confidence": 0.97272146,
+        "Duration": 1200000,
+        "Offset": 29400000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.9931826,
+        "Duration": 3200000,
+        "Offset": 30600000,
+        "Word": "behalf"
+      },
+      {
+        "Confidence": 0.96203923,
+        "Duration": 1200000,
+        "Offset": 33800000,
+        "Word": "of"
+      },
+      {
+        "Confidence": 0.81979597,
+        "Duration": 8000000,
+        "Offset": 35000000,
+        "Word": "contoso"
+      },
+      {
+        "Confidence": 0.9815372,
+        "Duration": 2800000,
+        "Offset": 43000000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.9806435,
+        "Duration": 400000,
+        "Offset": 45800000,
+        "Word": "i"
+      },
+      {
+        "Confidence": 0.98984295,
+        "Duration": 2000000,
+        "Offset": 46200000,
+        "Word": "need"
+      },
+      {
+        "Confidence": 0.9743508,
+        "Duration": 5200000,
+        "Offset": 48200000,
+        "Word": "information"
+      },
+      {
+        "Confidence": 0.8705252,
+        "Duration": 1600000,
+        "Offset": 53400000,
+        "Word": "for"
+      },
+      {
+        "Confidence": 0.8019822,
+        "Duration": 400000,
+        "Offset": 55000000,
+        "Word": "a"
+      },
+      {
+        "Confidence": 0.859462,
+        "Duration": 5200000,
+        "Offset": 55400000,
+        "Word": "specific"
+      },
+      {
+        "Confidence": 0.9771727,
+        "Duration": 4000000,
+        "Offset": 60600000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.6342917,
+        "Duration": 2400000,
+        "Offset": 64600000,
+        "Word": "you\u0027re"
+      },
+      {
+        "Confidence": 0.7761918,
+        "Duration": 5600000,
+        "Offset": 67000000,
+        "Word": "offering"
+      },
+      {
+        "Confidence": 0.9415052,
+        "Duration": 2000000,
+        "Offset": 75800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.9840719,
+        "Duration": 6800000,
+        "Offset": 77800000,
+        "Word": "interested"
+      },
+      {
+        "Confidence": 0.9888681,
+        "Duration": 1600000,
+        "Offset": 84600000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.82120186,
+        "Duration": 4000000,
+        "Offset": 86200000,
+        "Word": "training"
+      },
+      {
+        "Confidence": 0.7567884,
+        "Duration": 4800000,
+        "Offset": 90200000,
+        "Word": "shoes"
+      },
+      {
+        "Confidence": 0.90197945,
+        "Duration": 7600000,
+        "Offset": 96200000,
+        "Word": "specifically"
+      },
+      {
+        "Confidence": 0.9443131,
+        "Duration": 800000,
+        "Offset": 103800000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.7107489,
+        "Duration": 1600000,
+        "Offset": 104600000,
+        "Word": "your"
+      },
+      {
+        "Confidence": 0.9880967,
+        "Duration": 4400000,
+        "Offset": 106200000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.98468024,
+        "Duration": 1600000,
+        "Offset": 110600000,
+        "Word": "with"
+      },
+      {
+        "Confidence": 0.6442247,
+        "Duration": 10400000,
+        "Offset": 112200000,
+        "Word": "the"
+      },
+      {
+        "Confidence": 0.58131576,
+        "Duration": 800000,
+        "Offset": 123400000,
+        "Word": "ID"
+      },
+      {
+        "Confidence": 0.54184735,
+        "Duration": 800000,
+        "Offset": 124200000,
+        "Word": "FR"
+      },
+      {
+        "Confidence": 0.41983306,
+        "Duration": 5200000,
+        "Offset": 125000000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.60949874,
+        "Duration": 3200000,
+        "Offset": 131400000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9906371,
+        "Duration": 5200000,
+        "Offset": 134600000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98296,
+        "Duration": 1600000,
+        "Offset": 143000000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.9905441,
+        "Duration": 4000000,
+        "Offset": 144600000,
+        "Word": "customer"
+      },
+      {
+        "Confidence": 0.9766011,
+        "Duration": 4400000,
+        "Offset": 148600000,
+        "Word": "number"
+      },
+      {
+        "Confidence": 0.82044727,
+        "Duration": 4400000,
+        "Offset": 153000000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.8899899,
+        "Duration": 3600000,
+        "Offset": 157400000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.62784386,
+        "Duration": 2000000,
+        "Offset": 161000000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.9680569,
+        "Duration": 4000000,
+        "Offset": 163000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.23759052,
+        "Duration": 5200000,
+        "Offset": 167000000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.52656746,
+        "Duration": 800000,
+        "Offset": 174200000,
+        "Word": "AB"
+      },
+      {
+        "Confidence": 0.40584633,
+        "Duration": 4800000,
+        "Offset": 176200000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.8718658,
+        "Duration": 3200000,
+        "Offset": 181000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.85035306,
+        "Duration": 2000000,
+        "Offset": 184200000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.99092776,
+        "Duration": 5600000,
+        "Offset": 186200000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.8905365,
+        "Duration": 2000000,
+        "Offset": 193400000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.9870094,
+        "Duration": 2400000,
+        "Offset": 195400000,
+        "Word": "please"
+      },
+      {
+        "Confidence": 0.9922272,
+        "Duration": 1600000,
+        "Offset": 197800000,
+        "Word": "call"
+      },
+      {
+        "Confidence": 0.99163,
+        "Duration": 1200000,
+        "Offset": 199400000,
+        "Word": "me"
+      },
+      {
+        "Confidence": 0.99282986,
+        "Duration": 2400000,
+        "Offset": 200600000,
+        "Word": "back"
+      },
+      {
+        "Confidence": 0.9812641,
+        "Duration": 1200000,
+        "Offset": 203000000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.990571,
+        "Duration": 1600000,
+        "Offset": 204200000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.98552656,
+        "Duration": 7600000,
+        "Offset": 205800000,
+        "Word": "mobile"
+      },
+      {
+        "Confidence": 0.9840386,
+        "Duration": 3600000,
+        "Offset": 214200000,
+        "Word": "which"
+      },
+      {
+        "Confidence": 0.9244677,
+        "Duration": 5200000,
+        "Offset": 217800000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.5236523,
+        "Duration": 2800000,
+        "Offset": 223000000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9897355,
+        "Duration": 4800000,
+        "Offset": 225800000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98886114,
+        "Duration": 3600000,
+        "Offset": 230600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.5537697,
+        "Duration": 2800000,
+        "Offset": 234200000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.9766184,
+        "Duration": 3600000,
+        "Offset": 237000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.86189175,
+        "Duration": 3200000,
+        "Offset": 240600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.98586255,
+        "Duration": 4000000,
+        "Offset": 243800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98814166,
+        "Duration": 4000000,
+        "Offset": 247800000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.98153234,
+        "Duration": 3200000,
+        "Offset": 251800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98758394,
+        "Duration": 4000000,
+        "Offset": 255000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.9603556,
+        "Duration": 3200000,
+        "Offset": 259000000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.9864991,
+        "Duration": 5200000,
+        "Offset": 262200000,
+        "Word": "five"
+      }
+    ],
+    "DisplayWords": null
+  },
+  {
+    "Confidence": 0.8668382,
+    "Text": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the ID FR dash zero one my customer number is nine eight four AB dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "LexicalForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four ab dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "NormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four ab dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "MaskedNormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four ab dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "Words": [
+      {
+        "Confidence": 0.8770559,
+        "Duration": 3200000,
+        "Offset": 12600000,
+        "Word": "hey"
+      },
+      {
+        "Confidence": 0.6384205,
+        "Duration": 2400000,
+        "Offset": 15800000,
+        "Word": "here\u0027s"
+      },
+      {
+        "Confidence": 0.8592576,
+        "Duration": 4400000,
+        "Offset": 18200000,
+        "Word": "robert"
+      },
+      {
+        "Confidence": 0.8623548,
+        "Duration": 2000000,
+        "Offset": 23800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.99213636,
+        "Duration": 3600000,
+        "Offset": 25800000,
+        "Word": "calling"
+      },
+      {
+        "Confidence": 0.97272146,
+        "Duration": 1200000,
+        "Offset": 29400000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.9931826,
+        "Duration": 3200000,
+        "Offset": 30600000,
+        "Word": "behalf"
+      },
+      {
+        "Confidence": 0.96203923,
+        "Duration": 1200000,
+        "Offset": 33800000,
+        "Word": "of"
+      },
+      {
+        "Confidence": 0.81979597,
+        "Duration": 8000000,
+        "Offset": 35000000,
+        "Word": "contoso"
+      },
+      {
+        "Confidence": 0.9815372,
+        "Duration": 2800000,
+        "Offset": 43000000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.9806435,
+        "Duration": 400000,
+        "Offset": 45800000,
+        "Word": "i"
+      },
+      {
+        "Confidence": 0.98984295,
+        "Duration": 2000000,
+        "Offset": 46200000,
+        "Word": "need"
+      },
+      {
+        "Confidence": 0.9743508,
+        "Duration": 5200000,
+        "Offset": 48200000,
+        "Word": "information"
+      },
+      {
+        "Confidence": 0.8705252,
+        "Duration": 1600000,
+        "Offset": 53400000,
+        "Word": "for"
+      },
+      {
+        "Confidence": 0.8019822,
+        "Duration": 400000,
+        "Offset": 55000000,
+        "Word": "a"
+      },
+      {
+        "Confidence": 0.859462,
+        "Duration": 5200000,
+        "Offset": 55400000,
+        "Word": "specific"
+      },
+      {
+        "Confidence": 0.9771727,
+        "Duration": 4000000,
+        "Offset": 60600000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.6342917,
+        "Duration": 2400000,
+        "Offset": 64600000,
+        "Word": "you\u0027re"
+      },
+      {
+        "Confidence": 0.7761918,
+        "Duration": 5600000,
+        "Offset": 67000000,
+        "Word": "offering"
+      },
+      {
+        "Confidence": 0.9415052,
+        "Duration": 2000000,
+        "Offset": 75800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.9840719,
+        "Duration": 6800000,
+        "Offset": 77800000,
+        "Word": "interested"
+      },
+      {
+        "Confidence": 0.9888681,
+        "Duration": 1600000,
+        "Offset": 84600000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.82120186,
+        "Duration": 4000000,
+        "Offset": 86200000,
+        "Word": "training"
+      },
+      {
+        "Confidence": 0.7567884,
+        "Duration": 4800000,
+        "Offset": 90200000,
+        "Word": "shoes"
+      },
+      {
+        "Confidence": 0.90197945,
+        "Duration": 7600000,
+        "Offset": 96200000,
+        "Word": "specifically"
+      },
+      {
+        "Confidence": 0.9443131,
+        "Duration": 800000,
+        "Offset": 103800000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.7107489,
+        "Duration": 1600000,
+        "Offset": 104600000,
+        "Word": "your"
+      },
+      {
+        "Confidence": 0.9880967,
+        "Duration": 4400000,
+        "Offset": 106200000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.98468024,
+        "Duration": 1600000,
+        "Offset": 110600000,
+        "Word": "with"
+      },
+      {
+        "Confidence": 0.6442247,
+        "Duration": 10400000,
+        "Offset": 112200000,
+        "Word": "the"
+      },
+      {
+        "Confidence": 0.58131576,
+        "Duration": 800000,
+        "Offset": 123400000,
+        "Word": "ID"
+      },
+      {
+        "Confidence": 0.54184735,
+        "Duration": 800000,
+        "Offset": 124200000,
+        "Word": "FR"
+      },
+      {
+        "Confidence": 0.41983306,
+        "Duration": 5200000,
+        "Offset": 125000000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.60949874,
+        "Duration": 3200000,
+        "Offset": 131400000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9906371,
+        "Duration": 5200000,
+        "Offset": 134600000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98296,
+        "Duration": 1600000,
+        "Offset": 143000000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.9905441,
+        "Duration": 4000000,
+        "Offset": 144600000,
+        "Word": "customer"
+      },
+      {
+        "Confidence": 0.9766011,
+        "Duration": 4400000,
+        "Offset": 148600000,
+        "Word": "number"
+      },
+      {
+        "Confidence": 0.82044727,
+        "Duration": 4400000,
+        "Offset": 153000000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.8899899,
+        "Duration": 3600000,
+        "Offset": 157400000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.62784386,
+        "Duration": 2000000,
+        "Offset": 161000000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.9680569,
+        "Duration": 3600000,
+        "Offset": 163000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.3069649,
+        "Duration": 800000,
+        "Offset": 166600000,
+        "Word": "AB"
+      },
+      {
+        "Confidence": 0.4012935,
+        "Duration": 13600000,
+        "Offset": 167400000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.8686742,
+        "Duration": 3200000,
+        "Offset": 181000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.85035306,
+        "Duration": 2000000,
+        "Offset": 184200000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.99092776,
+        "Duration": 5600000,
+        "Offset": 186200000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.8905365,
+        "Duration": 2000000,
+        "Offset": 193400000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.9870094,
+        "Duration": 2400000,
+        "Offset": 195400000,
+        "Word": "please"
+      },
+      {
+        "Confidence": 0.9922272,
+        "Duration": 1600000,
+        "Offset": 197800000,
+        "Word": "call"
+      },
+      {
+        "Confidence": 0.99163,
+        "Duration": 1200000,
+        "Offset": 199400000,
+        "Word": "me"
+      },
+      {
+        "Confidence": 0.99282986,
+        "Duration": 2400000,
+        "Offset": 200600000,
+        "Word": "back"
+      },
+      {
+        "Confidence": 0.9812641,
+        "Duration": 1200000,
+        "Offset": 203000000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.990571,
+        "Duration": 1600000,
+        "Offset": 204200000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.98552656,
+        "Duration": 7600000,
+        "Offset": 205800000,
+        "Word": "mobile"
+      },
+      {
+        "Confidence": 0.9840386,
+        "Duration": 3600000,
+        "Offset": 214200000,
+        "Word": "which"
+      },
+      {
+        "Confidence": 0.9244677,
+        "Duration": 5200000,
+        "Offset": 217800000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.5236523,
+        "Duration": 2800000,
+        "Offset": 223000000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9897355,
+        "Duration": 4800000,
+        "Offset": 225800000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98886114,
+        "Duration": 3600000,
+        "Offset": 230600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.5537697,
+        "Duration": 2800000,
+        "Offset": 234200000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.9766184,
+        "Duration": 3600000,
+        "Offset": 237000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.86189175,
+        "Duration": 3200000,
+        "Offset": 240600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.98586255,
+        "Duration": 4000000,
+        "Offset": 243800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98814166,
+        "Duration": 4000000,
+        "Offset": 247800000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.98153234,
+        "Duration": 3200000,
+        "Offset": 251800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98758394,
+        "Duration": 4000000,
+        "Offset": 255000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.9603556,
+        "Duration": 3200000,
+        "Offset": 259000000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.9864991,
+        "Duration": 5200000,
+        "Offset": 262200000,
+        "Word": "five"
+      }
+    ],
+    "DisplayWords": null
+  },
+  {
+    "Confidence": 0.8605551,
+    "Text": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the ID FR dash zero one my customer number is nine eight four dash AB four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "LexicalForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four dash ab four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "NormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four dash ab four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "MaskedNormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four dash ab four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "Words": [
+      {
+        "Confidence": 0.8770559,
+        "Duration": 3200000,
+        "Offset": 12600000,
+        "Word": "hey"
+      },
+      {
+        "Confidence": 0.6384205,
+        "Duration": 2400000,
+        "Offset": 15800000,
+        "Word": "here\u0027s"
+      },
+      {
+        "Confidence": 0.8592576,
+        "Duration": 4400000,
+        "Offset": 18200000,
+        "Word": "robert"
+      },
+      {
+        "Confidence": 0.8623548,
+        "Duration": 2000000,
+        "Offset": 23800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.99213636,
+        "Duration": 3600000,
+        "Offset": 25800000,
+        "Word": "calling"
+      },
+      {
+        "Confidence": 0.97272146,
+        "Duration": 1200000,
+        "Offset": 29400000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.9931826,
+        "Duration": 3200000,
+        "Offset": 30600000,
+        "Word": "behalf"
+      },
+      {
+        "Confidence": 0.96203923,
+        "Duration": 1200000,
+        "Offset": 33800000,
+        "Word": "of"
+      },
+      {
+        "Confidence": 0.81979597,
+        "Duration": 8000000,
+        "Offset": 35000000,
+        "Word": "contoso"
+      },
+      {
+        "Confidence": 0.9815372,
+        "Duration": 2800000,
+        "Offset": 43000000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.9806435,
+        "Duration": 400000,
+        "Offset": 45800000,
+        "Word": "i"
+      },
+      {
+        "Confidence": 0.98984295,
+        "Duration": 2000000,
+        "Offset": 46200000,
+        "Word": "need"
+      },
+      {
+        "Confidence": 0.9743508,
+        "Duration": 5200000,
+        "Offset": 48200000,
+        "Word": "information"
+      },
+      {
+        "Confidence": 0.8705252,
+        "Duration": 1600000,
+        "Offset": 53400000,
+        "Word": "for"
+      },
+      {
+        "Confidence": 0.8019822,
+        "Duration": 400000,
+        "Offset": 55000000,
+        "Word": "a"
+      },
+      {
+        "Confidence": 0.859462,
+        "Duration": 5200000,
+        "Offset": 55400000,
+        "Word": "specific"
+      },
+      {
+        "Confidence": 0.9771727,
+        "Duration": 4000000,
+        "Offset": 60600000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.6342917,
+        "Duration": 2400000,
+        "Offset": 64600000,
+        "Word": "you\u0027re"
+      },
+      {
+        "Confidence": 0.7761918,
+        "Duration": 5600000,
+        "Offset": 67000000,
+        "Word": "offering"
+      },
+      {
+        "Confidence": 0.9415052,
+        "Duration": 2000000,
+        "Offset": 75800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.9840719,
+        "Duration": 6800000,
+        "Offset": 77800000,
+        "Word": "interested"
+      },
+      {
+        "Confidence": 0.9888681,
+        "Duration": 1600000,
+        "Offset": 84600000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.82120186,
+        "Duration": 4000000,
+        "Offset": 86200000,
+        "Word": "training"
+      },
+      {
+        "Confidence": 0.7567884,
+        "Duration": 4800000,
+        "Offset": 90200000,
+        "Word": "shoes"
+      },
+      {
+        "Confidence": 0.90197945,
+        "Duration": 7600000,
+        "Offset": 96200000,
+        "Word": "specifically"
+      },
+      {
+        "Confidence": 0.9443131,
+        "Duration": 800000,
+        "Offset": 103800000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.7107489,
+        "Duration": 1600000,
+        "Offset": 104600000,
+        "Word": "your"
+      },
+      {
+        "Confidence": 0.9880967,
+        "Duration": 4400000,
+        "Offset": 106200000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.98468024,
+        "Duration": 1600000,
+        "Offset": 110600000,
+        "Word": "with"
+      },
+      {
+        "Confidence": 0.6442247,
+        "Duration": 10400000,
+        "Offset": 112200000,
+        "Word": "the"
+      },
+      {
+        "Confidence": 0.58131576,
+        "Duration": 800000,
+        "Offset": 123400000,
+        "Word": "ID"
+      },
+      {
+        "Confidence": 0.54184735,
+        "Duration": 800000,
+        "Offset": 124200000,
+        "Word": "FR"
+      },
+      {
+        "Confidence": 0.41983306,
+        "Duration": 5200000,
+        "Offset": 125000000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.60949874,
+        "Duration": 3200000,
+        "Offset": 131400000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9906371,
+        "Duration": 5200000,
+        "Offset": 134600000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98296,
+        "Duration": 1600000,
+        "Offset": 143000000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.9905441,
+        "Duration": 4000000,
+        "Offset": 144600000,
+        "Word": "customer"
+      },
+      {
+        "Confidence": 0.9766011,
+        "Duration": 4400000,
+        "Offset": 148600000,
+        "Word": "number"
+      },
+      {
+        "Confidence": 0.82044727,
+        "Duration": 4400000,
+        "Offset": 153000000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.8899899,
+        "Duration": 3600000,
+        "Offset": 157400000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.62784386,
+        "Duration": 2000000,
+        "Offset": 161000000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.9680569,
+        "Duration": 4000000,
+        "Offset": 163000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.23759052,
+        "Duration": 13600000,
+        "Offset": 167000000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.35877633,
+        "Duration": 800000,
+        "Offset": 180600000,
+        "Word": "AB"
+      },
+      {
+        "Confidence": 0.60244524,
+        "Duration": 2800000,
+        "Offset": 181400000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.78233767,
+        "Duration": 2000000,
+        "Offset": 184200000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.99100304,
+        "Duration": 5600000,
+        "Offset": 186200000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.90341467,
+        "Duration": 2000000,
+        "Offset": 193400000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.986655,
+        "Duration": 2400000,
+        "Offset": 195400000,
+        "Word": "please"
+      },
+      {
+        "Confidence": 0.9922272,
+        "Duration": 1600000,
+        "Offset": 197800000,
+        "Word": "call"
+      },
+      {
+        "Confidence": 0.99163,
+        "Duration": 1200000,
+        "Offset": 199400000,
+        "Word": "me"
+      },
+      {
+        "Confidence": 0.99282986,
+        "Duration": 2400000,
+        "Offset": 200600000,
+        "Word": "back"
+      },
+      {
+        "Confidence": 0.9812641,
+        "Duration": 1200000,
+        "Offset": 203000000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.990571,
+        "Duration": 1600000,
+        "Offset": 204200000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.98552656,
+        "Duration": 7600000,
+        "Offset": 205800000,
+        "Word": "mobile"
+      },
+      {
+        "Confidence": 0.9840386,
+        "Duration": 3600000,
+        "Offset": 214200000,
+        "Word": "which"
+      },
+      {
+        "Confidence": 0.9244677,
+        "Duration": 5200000,
+        "Offset": 217800000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.5236523,
+        "Duration": 2800000,
+        "Offset": 223000000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9897355,
+        "Duration": 4800000,
+        "Offset": 225800000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98886114,
+        "Duration": 3600000,
+        "Offset": 230600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.5537697,
+        "Duration": 2800000,
+        "Offset": 234200000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.9766184,
+        "Duration": 3600000,
+        "Offset": 237000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.86189175,
+        "Duration": 3200000,
+        "Offset": 240600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.98586255,
+        "Duration": 4000000,
+        "Offset": 243800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98814166,
+        "Duration": 4000000,
+        "Offset": 247800000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.98153234,
+        "Duration": 3200000,
+        "Offset": 251800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98758394,
+        "Duration": 4000000,
+        "Offset": 255000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.9603556,
+        "Duration": 3200000,
+        "Offset": 259000000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.9864991,
+        "Duration": 5200000,
+        "Offset": 262200000,
+        "Word": "five"
+      }
+    ],
+    "DisplayWords": null
+  },
+  {
+    "Confidence": 0.87406033,
+    "Text": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the ID FR dash zero one my customer number is nine eight four AB four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "LexicalForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four ab four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "NormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four ab four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "MaskedNormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr dash zero one my customer number is nine eight four ab four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "Words": [
+      {
+        "Confidence": 0.8770559,
+        "Duration": 3200000,
+        "Offset": 12600000,
+        "Word": "hey"
+      },
+      {
+        "Confidence": 0.6384205,
+        "Duration": 2400000,
+        "Offset": 15800000,
+        "Word": "here\u0027s"
+      },
+      {
+        "Confidence": 0.8592576,
+        "Duration": 4400000,
+        "Offset": 18200000,
+        "Word": "robert"
+      },
+      {
+        "Confidence": 0.8623548,
+        "Duration": 2000000,
+        "Offset": 23800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.99213636,
+        "Duration": 3600000,
+        "Offset": 25800000,
+        "Word": "calling"
+      },
+      {
+        "Confidence": 0.97272146,
+        "Duration": 1200000,
+        "Offset": 29400000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.9931826,
+        "Duration": 3200000,
+        "Offset": 30600000,
+        "Word": "behalf"
+      },
+      {
+        "Confidence": 0.96203923,
+        "Duration": 1200000,
+        "Offset": 33800000,
+        "Word": "of"
+      },
+      {
+        "Confidence": 0.81979597,
+        "Duration": 8000000,
+        "Offset": 35000000,
+        "Word": "contoso"
+      },
+      {
+        "Confidence": 0.9815372,
+        "Duration": 2800000,
+        "Offset": 43000000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.9806435,
+        "Duration": 400000,
+        "Offset": 45800000,
+        "Word": "i"
+      },
+      {
+        "Confidence": 0.98984295,
+        "Duration": 2000000,
+        "Offset": 46200000,
+        "Word": "need"
+      },
+      {
+        "Confidence": 0.9743508,
+        "Duration": 5200000,
+        "Offset": 48200000,
+        "Word": "information"
+      },
+      {
+        "Confidence": 0.8705252,
+        "Duration": 1600000,
+        "Offset": 53400000,
+        "Word": "for"
+      },
+      {
+        "Confidence": 0.8019822,
+        "Duration": 400000,
+        "Offset": 55000000,
+        "Word": "a"
+      },
+      {
+        "Confidence": 0.859462,
+        "Duration": 5200000,
+        "Offset": 55400000,
+        "Word": "specific"
+      },
+      {
+        "Confidence": 0.9771727,
+        "Duration": 4000000,
+        "Offset": 60600000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.6342917,
+        "Duration": 2400000,
+        "Offset": 64600000,
+        "Word": "you\u0027re"
+      },
+      {
+        "Confidence": 0.7761918,
+        "Duration": 5600000,
+        "Offset": 67000000,
+        "Word": "offering"
+      },
+      {
+        "Confidence": 0.9415052,
+        "Duration": 2000000,
+        "Offset": 75800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.9840719,
+        "Duration": 6800000,
+        "Offset": 77800000,
+        "Word": "interested"
+      },
+      {
+        "Confidence": 0.9888681,
+        "Duration": 1600000,
+        "Offset": 84600000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.82120186,
+        "Duration": 4000000,
+        "Offset": 86200000,
+        "Word": "training"
+      },
+      {
+        "Confidence": 0.7567884,
+        "Duration": 4800000,
+        "Offset": 90200000,
+        "Word": "shoes"
+      },
+      {
+        "Confidence": 0.90197945,
+        "Duration": 7600000,
+        "Offset": 96200000,
+        "Word": "specifically"
+      },
+      {
+        "Confidence": 0.9443131,
+        "Duration": 800000,
+        "Offset": 103800000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.7107489,
+        "Duration": 1600000,
+        "Offset": 104600000,
+        "Word": "your"
+      },
+      {
+        "Confidence": 0.9880967,
+        "Duration": 4400000,
+        "Offset": 106200000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.98468024,
+        "Duration": 1600000,
+        "Offset": 110600000,
+        "Word": "with"
+      },
+      {
+        "Confidence": 0.6442247,
+        "Duration": 10400000,
+        "Offset": 112200000,
+        "Word": "the"
+      },
+      {
+        "Confidence": 0.58131576,
+        "Duration": 800000,
+        "Offset": 123400000,
+        "Word": "ID"
+      },
+      {
+        "Confidence": 0.54184735,
+        "Duration": 800000,
+        "Offset": 124200000,
+        "Word": "FR"
+      },
+      {
+        "Confidence": 0.41983306,
+        "Duration": 5200000,
+        "Offset": 125000000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.60949874,
+        "Duration": 3200000,
+        "Offset": 131400000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9906371,
+        "Duration": 5200000,
+        "Offset": 134600000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98296,
+        "Duration": 1600000,
+        "Offset": 143000000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.9905441,
+        "Duration": 4000000,
+        "Offset": 144600000,
+        "Word": "customer"
+      },
+      {
+        "Confidence": 0.9766011,
+        "Duration": 4400000,
+        "Offset": 148600000,
+        "Word": "number"
+      },
+      {
+        "Confidence": 0.82044727,
+        "Duration": 4400000,
+        "Offset": 153000000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.8899899,
+        "Duration": 3600000,
+        "Offset": 157400000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.62784386,
+        "Duration": 2000000,
+        "Offset": 161000000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.9680569,
+        "Duration": 4800000,
+        "Offset": 163000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.44616282,
+        "Duration": 800000,
+        "Offset": 177000000,
+        "Word": "AB"
+      },
+      {
+        "Confidence": 0.83134097,
+        "Duration": 3600000,
+        "Offset": 180600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.7613893,
+        "Duration": 2000000,
+        "Offset": 184200000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.9910614,
+        "Duration": 5600000,
+        "Offset": 186200000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.90341467,
+        "Duration": 2000000,
+        "Offset": 193400000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.986655,
+        "Duration": 2400000,
+        "Offset": 195400000,
+        "Word": "please"
+      },
+      {
+        "Confidence": 0.9922272,
+        "Duration": 1600000,
+        "Offset": 197800000,
+        "Word": "call"
+      },
+      {
+        "Confidence": 0.99163,
+        "Duration": 1200000,
+        "Offset": 199400000,
+        "Word": "me"
+      },
+      {
+        "Confidence": 0.99282986,
+        "Duration": 2400000,
+        "Offset": 200600000,
+        "Word": "back"
+      },
+      {
+        "Confidence": 0.9812641,
+        "Duration": 1200000,
+        "Offset": 203000000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.990571,
+        "Duration": 1600000,
+        "Offset": 204200000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.98552656,
+        "Duration": 7600000,
+        "Offset": 205800000,
+        "Word": "mobile"
+      },
+      {
+        "Confidence": 0.9840386,
+        "Duration": 3600000,
+        "Offset": 214200000,
+        "Word": "which"
+      },
+      {
+        "Confidence": 0.9244677,
+        "Duration": 5200000,
+        "Offset": 217800000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.5236523,
+        "Duration": 2800000,
+        "Offset": 223000000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9897355,
+        "Duration": 4800000,
+        "Offset": 225800000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98886114,
+        "Duration": 3600000,
+        "Offset": 230600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.5537697,
+        "Duration": 2800000,
+        "Offset": 234200000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.9766184,
+        "Duration": 3600000,
+        "Offset": 237000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.86189175,
+        "Duration": 3200000,
+        "Offset": 240600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.98586255,
+        "Duration": 4000000,
+        "Offset": 243800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98814166,
+        "Duration": 4000000,
+        "Offset": 247800000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.98153234,
+        "Duration": 3200000,
+        "Offset": 251800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98758394,
+        "Duration": 4000000,
+        "Offset": 255000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.9603556,
+        "Duration": 3200000,
+        "Offset": 259000000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.9864991,
+        "Duration": 5200000,
+        "Offset": 262200000,
+        "Word": "five"
+      }
+    ],
+    "DisplayWords": null
+  },
+  {
+    "Confidence": 0.8647278,
+    "Text": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the ID FR zero one my customer number is nine eight four dash AB dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "LexicalForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr zero one my customer number is nine eight four dash ab dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "NormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr zero one my customer number is nine eight four dash ab dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "MaskedNormalizedForm": "hey here\u0027s robert i\u0027m calling on behalf of contoso and i need information for a specific product you\u0027re offering i\u0027m interested in training shoes specifically in your product with the id fr zero one my customer number is nine eight four dash ab dash four eight nine and please call me back on my mobile which is zero one four four five four three five three five three five",
+    "Words": [
+      {
+        "Confidence": 0.8770559,
+        "Duration": 3200000,
+        "Offset": 12600000,
+        "Word": "hey"
+      },
+      {
+        "Confidence": 0.6384205,
+        "Duration": 2400000,
+        "Offset": 15800000,
+        "Word": "here\u0027s"
+      },
+      {
+        "Confidence": 0.8592576,
+        "Duration": 4400000,
+        "Offset": 18200000,
+        "Word": "robert"
+      },
+      {
+        "Confidence": 0.8623548,
+        "Duration": 2000000,
+        "Offset": 23800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.99213636,
+        "Duration": 3600000,
+        "Offset": 25800000,
+        "Word": "calling"
+      },
+      {
+        "Confidence": 0.97272146,
+        "Duration": 1200000,
+        "Offset": 29400000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.9931826,
+        "Duration": 3200000,
+        "Offset": 30600000,
+        "Word": "behalf"
+      },
+      {
+        "Confidence": 0.96203923,
+        "Duration": 1200000,
+        "Offset": 33800000,
+        "Word": "of"
+      },
+      {
+        "Confidence": 0.81979597,
+        "Duration": 8000000,
+        "Offset": 35000000,
+        "Word": "contoso"
+      },
+      {
+        "Confidence": 0.9815372,
+        "Duration": 2800000,
+        "Offset": 43000000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.9806435,
+        "Duration": 400000,
+        "Offset": 45800000,
+        "Word": "i"
+      },
+      {
+        "Confidence": 0.98984283,
+        "Duration": 2000000,
+        "Offset": 46200000,
+        "Word": "need"
+      },
+      {
+        "Confidence": 0.9743507,
+        "Duration": 5200000,
+        "Offset": 48200000,
+        "Word": "information"
+      },
+      {
+        "Confidence": 0.8705252,
+        "Duration": 1600000,
+        "Offset": 53400000,
+        "Word": "for"
+      },
+      {
+        "Confidence": 0.8019822,
+        "Duration": 400000,
+        "Offset": 55000000,
+        "Word": "a"
+      },
+      {
+        "Confidence": 0.859462,
+        "Duration": 5200000,
+        "Offset": 55400000,
+        "Word": "specific"
+      },
+      {
+        "Confidence": 0.9771727,
+        "Duration": 4000000,
+        "Offset": 60600000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.6342917,
+        "Duration": 2400000,
+        "Offset": 64600000,
+        "Word": "you\u0027re"
+      },
+      {
+        "Confidence": 0.7761918,
+        "Duration": 5600000,
+        "Offset": 67000000,
+        "Word": "offering"
+      },
+      {
+        "Confidence": 0.9415051,
+        "Duration": 2000000,
+        "Offset": 75800000,
+        "Word": "i\u0027m"
+      },
+      {
+        "Confidence": 0.9840719,
+        "Duration": 6800000,
+        "Offset": 77800000,
+        "Word": "interested"
+      },
+      {
+        "Confidence": 0.9888681,
+        "Duration": 1600000,
+        "Offset": 84600000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.82120186,
+        "Duration": 4000000,
+        "Offset": 86200000,
+        "Word": "training"
+      },
+      {
+        "Confidence": 0.7567884,
+        "Duration": 4800000,
+        "Offset": 90200000,
+        "Word": "shoes"
+      },
+      {
+        "Confidence": 0.90197945,
+        "Duration": 7600000,
+        "Offset": 96200000,
+        "Word": "specifically"
+      },
+      {
+        "Confidence": 0.9443131,
+        "Duration": 800000,
+        "Offset": 103800000,
+        "Word": "in"
+      },
+      {
+        "Confidence": 0.7107489,
+        "Duration": 1600000,
+        "Offset": 104600000,
+        "Word": "your"
+      },
+      {
+        "Confidence": 0.9880967,
+        "Duration": 4400000,
+        "Offset": 106200000,
+        "Word": "product"
+      },
+      {
+        "Confidence": 0.98468024,
+        "Duration": 1600000,
+        "Offset": 110600000,
+        "Word": "with"
+      },
+      {
+        "Confidence": 0.6442247,
+        "Duration": 10400000,
+        "Offset": 112200000,
+        "Word": "the"
+      },
+      {
+        "Confidence": 0.58131576,
+        "Duration": 800000,
+        "Offset": 123400000,
+        "Word": "ID"
+      },
+      {
+        "Confidence": 0.54184735,
+        "Duration": 800000,
+        "Offset": 124200000,
+        "Word": "FR"
+      },
+      {
+        "Confidence": 0.42077196,
+        "Duration": 8400000,
+        "Offset": 126200000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.98989666,
+        "Duration": 5200000,
+        "Offset": 134600000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98160064,
+        "Duration": 1600000,
+        "Offset": 143000000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.99064636,
+        "Duration": 4000000,
+        "Offset": 144600000,
+        "Word": "customer"
+      },
+      {
+        "Confidence": 0.976601,
+        "Duration": 4400000,
+        "Offset": 148600000,
+        "Word": "number"
+      },
+      {
+        "Confidence": 0.82044727,
+        "Duration": 4400000,
+        "Offset": 153000000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.88998985,
+        "Duration": 3600000,
+        "Offset": 157400000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.62784386,
+        "Duration": 2000000,
+        "Offset": 161000000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.9680569,
+        "Duration": 4000000,
+        "Offset": 163000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.23759052,
+        "Duration": 5200000,
+        "Offset": 167000000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.52656746,
+        "Duration": 800000,
+        "Offset": 174200000,
+        "Word": "AB"
+      },
+      {
+        "Confidence": 0.40584648,
+        "Duration": 4800000,
+        "Offset": 176200000,
+        "Word": "dash"
+      },
+      {
+        "Confidence": 0.8718658,
+        "Duration": 3200000,
+        "Offset": 181000000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.85035306,
+        "Duration": 2000000,
+        "Offset": 184200000,
+        "Word": "eight"
+      },
+      {
+        "Confidence": 0.99092776,
+        "Duration": 5600000,
+        "Offset": 186200000,
+        "Word": "nine"
+      },
+      {
+        "Confidence": 0.8905365,
+        "Duration": 2000000,
+        "Offset": 193400000,
+        "Word": "and"
+      },
+      {
+        "Confidence": 0.98700935,
+        "Duration": 2400000,
+        "Offset": 195400000,
+        "Word": "please"
+      },
+      {
+        "Confidence": 0.9922272,
+        "Duration": 1600000,
+        "Offset": 197800000,
+        "Word": "call"
+      },
+      {
+        "Confidence": 0.9916299,
+        "Duration": 1200000,
+        "Offset": 199400000,
+        "Word": "me"
+      },
+      {
+        "Confidence": 0.99282986,
+        "Duration": 2400000,
+        "Offset": 200600000,
+        "Word": "back"
+      },
+      {
+        "Confidence": 0.9812641,
+        "Duration": 1200000,
+        "Offset": 203000000,
+        "Word": "on"
+      },
+      {
+        "Confidence": 0.990571,
+        "Duration": 1600000,
+        "Offset": 204200000,
+        "Word": "my"
+      },
+      {
+        "Confidence": 0.98552656,
+        "Duration": 7600000,
+        "Offset": 205800000,
+        "Word": "mobile"
+      },
+      {
+        "Confidence": 0.9840386,
+        "Duration": 3600000,
+        "Offset": 214200000,
+        "Word": "which"
+      },
+      {
+        "Confidence": 0.9244677,
+        "Duration": 5200000,
+        "Offset": 217800000,
+        "Word": "is"
+      },
+      {
+        "Confidence": 0.5236523,
+        "Duration": 2800000,
+        "Offset": 223000000,
+        "Word": "zero"
+      },
+      {
+        "Confidence": 0.9897355,
+        "Duration": 4800000,
+        "Offset": 225800000,
+        "Word": "one"
+      },
+      {
+        "Confidence": 0.98886114,
+        "Duration": 3600000,
+        "Offset": 230600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.5537697,
+        "Duration": 2800000,
+        "Offset": 234200000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.9766184,
+        "Duration": 3600000,
+        "Offset": 237000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.8618917,
+        "Duration": 3200000,
+        "Offset": 240600000,
+        "Word": "four"
+      },
+      {
+        "Confidence": 0.98586255,
+        "Duration": 4000000,
+        "Offset": 243800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98814166,
+        "Duration": 4000000,
+        "Offset": 247800000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.98153234,
+        "Duration": 3200000,
+        "Offset": 251800000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.98758394,
+        "Duration": 4000000,
+        "Offset": 255000000,
+        "Word": "five"
+      },
+      {
+        "Confidence": 0.9603556,
+        "Duration": 3200000,
+        "Offset": 259000000,
+        "Word": "three"
+      },
+      {
+        "Confidence": 0.9864991,
+        "Duration": 5200000,
+        "Offset": 262200000,
+        "Word": "five"
+      }
+    ],
+    "DisplayWords": null
+  }
+]

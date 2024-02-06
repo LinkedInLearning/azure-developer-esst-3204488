@@ -1,0 +1,128 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login 
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+################################################
+# Create Azure Container Registry
+################################################
+$acrName = "lilazure4devs"
+$acrSKU = "Standard"
+$acrLocation = "WestEurope"
+$acrUserRole = "owner"
+$acrScope = "/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.ContainerRegistry/registries/$acrName"
+
+az acr create `
+    --name $acrName `
+    --resource-group $resourceGroup `
+    --location $acrLocation `
+    --sku $acrSKU `
+    --admin-enabled true
+
+$loggedInUser = (
+    az account show `
+        --query 'user.name' `
+        -o tsv
+)
+
+az role assignment create `
+    --assignee $loggedInUser `
+    --role $acrUserRole `
+    --scope $acrScope
+
+
+################################################
+# Build UI Image (ACR)
+################################################
+$imagePlatform = "linux"
+$imageTagACR = "lil-ui-acr"
+$imageDockerfile = "./01_Compute/03_AzureContainerInstance/src/UI/Dockerfile"
+$imageSourceLocation = "./01_Compute/03_AzureContainerInstance/src/UI"
+
+az acr build `
+    --registry $acrName `
+    --image $imageTagACR `
+    --file $imageDockerfile `
+    --platform $imagePlatform $imageSourceLocation 
+
+az acr repository list `
+    --name $acrName `
+    --output table
+
+
+################################################
+# Create Azure Container Instance
+################################################
+$aciName = "lil-ui"
+$aciDNSLabel = "lil-ui"
+$aciPort = 8080
+
+$acrUsername = (
+    az acr credential show `
+        --name $acrName `
+        --query 'username' `
+        --output tsv
+)
+
+$acrPassword = (
+    az acr credential show `
+        --name $acrName `
+        --query 'passwords[0].value' `
+        --output tsv
+)
+
+$acrLoginServer = (
+    az acr show `
+        --name $acrName `
+        --query 'loginServer' `
+        --output tsv `
+)
+
+az container create `
+    --resource-group $resourceGroup `
+    --location $location `
+    --name $aciName `
+    --image "$acrLoginServer/$imageTagACR" `
+    --dns-name-label $aciDNSLabel `
+    --ports $aciPort `
+    --registry-username $acrUsername `
+    --registry-password $acrPassword `
+    --environment-variables `
+        "ASPNET_URLS=https://+:8080" 
+
+# retrieve container instance fqdns
+$aciFQDNS = (
+    az container show `
+        --resource-group $resourceGroup `
+        --name $aciName `
+        --query ipAddress.fqdn `
+        --output tsv
+)
+
+################################################
+# Check Azure Container Instance
+################################################
+$url = "http://$aciFQDNS" + ":$aciPort/api/Product?productId=4711?apiVersion=1.0"
+curl $url

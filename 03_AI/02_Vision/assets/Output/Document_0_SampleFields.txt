@@ -1,0 +1,27 @@
+Object-Type: Address - Count: 3 
+  Field: BillingAddress - Confidence: 0.784 - Value: Muster-Straße 27a Musterstadt, 1234 CH 
+  Field: ShippingAddress - Confidence: 0.907 - Value: Wallbacher Str. 5 79713 Bad Saeckingen 
+  Field: VendorAddress - Confidence: 0.723 - Value: Valeska-Gert-Straße 1 | 10243 Berlin 
+
+Object-Type: String - Count: 9 
+  Field: BillingAddressRecipient - Confidence: 0.711 - Value: Anton Schweizer 
+  Field: CustomerId - Confidence: 0.967 - Value: 2305346178 
+  Field: CustomerName - Confidence: 0.711 - Value: Anton Schweizer 
+  Field: InvoiceId - Confidence: 0.968 - Value: 205483127715 
+  Field: PurchaseOrder - Confidence: 0.656 - Value: 10543566485350 
+  Field: ShippingAddressRecipient - Confidence: 0.892 - Value: Anton Schweizer c/o MyPaketshop 18801 
+  Field: VendorAddressRecipient - Confidence: 0.916 - Value: Zalando SE 
+  Field: VendorName - Confidence: 0.967 - Value: zalando 
+  Field: VendorTaxId - Confidence: 0.821 - Value: DE260543043 
+
+Object-Type: Date - Count: 1 
+  Field: InvoiceDate - Confidence: 0.959 - Value: 06.03.2020 
+
+Object-Type: Currency - Count: 3 
+  Field: InvoiceTotal - Confidence: 0.967 - Value: 177,64 
+  Field: SubTotal - Confidence: 0.966 - Value: 149,27 
+  Field: TotalTax - Confidence: 0.966 - Value: 28,37 
+
+Object-Type: List - Count: 1 
+  Field: Items - Confidence:  - Value: JSON: [{"FieldType":8,"ExpectedFieldType":8,"Value":{}," ... 
+

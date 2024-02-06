@@ -1,0 +1,200 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login --use-device-code
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+################################################
+# Create Service Bus Namespace
+################################################
+$serviceBusNamespace = "lil-azure4devs"
+$serviceBusSku = "Standard"
+$serviceBusTopic = "lil-azure4devs-topic"
+$serviceBusQueue = "lil-azure4devs-queue"
+
+az servicebus namespace create `
+    --name $serviceBusNamespace `
+    --resource-group $resourceGroup `
+    --sku $serviceBusSku
+
+az servicebus queue create `
+    --name $serviceBusQueue `
+    --namespace-name $serviceBusNamespace `
+    --resource-group $resourceGroup
+
+# get connection string 
+$serviceBusConnectionString = (
+    az servicebus namespace authorization-rule keys list `
+        --name RootManageSharedAccessKey `
+        --namespace-name $serviceBusNamespace `
+        --resource-group $resourceGroup `
+        --query 'primaryConnectionString' `
+        --output tsv
+)
+
+
+################################################
+# Create Azure Container Registry
+################################################
+$acrName = "lilazure4devs"
+$acrSKU = "Standard"
+$acrLocation = "WestEurope"
+$acrUserRole = "owner"
+$acrScope = "/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.ContainerRegistry/registries/$acrName"
+
+az acr create `
+    --name $acrName `
+    --resource-group $resourceGroup `
+    --location $acrLocation `
+    --sku $acrSKU `
+    --admin-enabled true
+
+$loggedInUser = (
+    az account show `
+        --query 'user.name' `
+        -o tsv
+)
+
+az role assignment create `
+    --assignee $loggedInUser `
+    --role $acrUserRole `
+    --scope $acrScope
+
+################################################
+# Build UI/Service Image (ACR)
+################################################
+$imagePlatform = "linux"
+$imageTagUI = "lil-ui-acr"
+$imageDockerfileUI = "./01_Compute/04_AzureContainerApps/src/UI/Dockerfile"
+$imageSourceLocationUI = "./01_Compute/04_AzureContainerApps/src/UI"
+$imageTagService = "lil-service-acr"
+$imageDockerfileService = "./01_Compute/04_AzureContainerApps/src/Service/Dockerfile"
+$imageSourceLocationService = "./01_Compute/04_AzureContainerApps/src/Service"
+
+
+$acrUsername = (
+    az acr credential show `
+        --name $acrName `
+        --query 'username' `
+        --output tsv
+)
+
+$acrPassword = (
+    az acr credential show `
+        --name $acrName `
+        --query 'passwords[0].value' `
+        --output tsv
+)
+
+$acrLoginServer = (
+    az acr show `
+        --name $acrName `
+        --query 'loginServer' `
+        --output tsv `
+)
+
+az acr build `
+    --registry $acrName `
+    --image $imageTagUI `
+    --file $imageDockerfileUI `
+    --platform $imagePlatform $imageSourceLocationUI 
+
+az acr build `
+    --registry $acrName `
+    --image $imageTagService `
+    --file $imageDockerfileService `
+    --platform $imagePlatform $imageSourceLocationService
+
+################################################
+# Create Azure Container App Environment
+################################################
+$caEnvironment = "lil-azure4devs"
+$caNameUI = "lil-ui"
+$caNameService = "lil-service"
+
+az provider register --namespace Microsoft.App
+
+az containerapp env create `
+    --resource-group $resourceGroup `
+    --location $location `
+    --name $caEnvironment
+
+az containerapp create `
+    --name $caNameUI `
+    --resource-group $resourceGroup `
+    --environment $caEnvironment `
+    --registry-server $acrLoginServer `
+    --registry-username $acrUsername `
+    --registry-password $acrPassword `
+    --image "$acrLoginServer/$imageTagUI" `
+    --target-port 8080 `
+    --ingress "external" `
+    --env-vars `
+        "ASPNETCORE_URLS=http://+:8080" 
+
+$caUrl = (
+    az containerapp show `
+        --resource-group $resourceGroup `
+        --name $caNameUI `
+        --query properties.configuration.ingress.fqdn `
+        --output tsv
+)
+
+az containerapp create `
+    --name $caNameService `
+    --resource-group $resourceGroup `
+    --environment $caEnvironment `
+    --registry-server $acrLoginServer `
+    --registry-username $acrUsername `
+    --registry-password $acrPassword `
+    --image "$acrLoginServer/$imageTagService" `
+    --env-vars `
+        "LI4DEVS.SERVICE.SB.CONNECTIONSTRING=$serviceBusConnectionString" `
+        "LI4DEVS.SERVICE.SB.QUEUE=$serviceBusQueue"
+
+################################################
+# Create Configuration File
+################################################
+$configurationFile = "./01_Compute/04_AzureContainerApps/CreateEnv/Configuration.env"
+
+# Add line to file
+Add-Content -Path $configurationFile -Value "LI4DEVS.CONTAINERAPPS.SB.CONNECTIONSTRING=$serviceBusConnectionString"
+Add-Content -Path $configurationFile -Value "LI4DEVS.CONTAINERAPPS.SB.QUEUE=$serviceBusQueue"
+Add-Content -Path $configurationFile -Value "LI4DEVS.CONTAINERAPPS.UI.URL=https://$caUrl/api/Product?productId=4712"
+
+################################################
+# Show Container Apps & Call UI
+################################################
+az containerapp show `
+    --resource-group $resourceGroup `
+    --name $caNameUI 
+
+az containerapp show `
+    --resource-group $resourceGroup `
+    --name $caNameService 
+
+$url = "https://$caUrl/api/Product?productId=4712"
+curl $url
+
+

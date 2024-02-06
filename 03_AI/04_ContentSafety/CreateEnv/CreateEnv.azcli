@@ -1,0 +1,68 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login 
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+
+################################################
+# Create Content Safety Service
+################################################
+$csName = "lilContentSafety"
+$csSKU = "F0"
+$aiKind = "ContentSafety"
+
+az cognitiveservices account create `
+    --name $csName `
+    --resource-group $resourceGroup `
+    --location $location `
+    --kind $aiKind `
+    --sku $csSku
+
+
+$csKey = ( `
+    az cognitiveservices account keys list `
+    --name $csName `
+    --resource-group $resourceGroup `
+    --query key1 `
+    --output tsv
+)
+
+$csEndpoint = ( `
+    az cognitiveservices account show `
+    --name $csName `
+    --resource-group $resourceGroup `
+    --query properties.endpoint `
+    --output tsv
+)
+
+################################################
+# Create Configuration File
+################################################
+$configurationFile = "./03_AI/04_ContentSafety/CreateEnv/Configuration.env"
+
+# Add line to file
+Add-Content -Path $configurationFile -Value "LI4DEVS.CONTENTSAFETY.KEY=$csKey"
+Add-Content -Path $configurationFile -Value "LI4DEVS.CONTENTSAFETY.ENDPOINT=$csEndpoint"
+

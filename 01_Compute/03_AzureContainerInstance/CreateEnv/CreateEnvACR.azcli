@@ -1,0 +1,113 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+################################################
+# Create Azure Container Registry
+################################################
+$acrName = "lilazure4devs"
+$acrSKU = "Standard"
+$acrLocation = "WestEurope"
+$acrUserRole = "owner"
+$acrScope = "/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.ContainerRegistry/registries/$acrName"
+
+az acr create `
+    --name $acrName `
+    --resource-group $resourceGroup `
+    --location $acrLocation `
+    --sku $acrSKU `
+    --admin-enabled true
+
+$loggedInUser = (
+    az account show `
+        --query 'user.name' `
+        -o tsv
+)
+
+az role assignment create `
+    --assignee $loggedInUser `
+    --role $acrUserRole `
+    --scope $acrScope
+
+################################################
+# Build Image (local)
+################################################
+$imageTag = "lil-ui"
+docker build `
+    --tag $imageTag `
+    --file ./01_Compute/03_AzureContainerInstance/src/UI/Dockerfile `
+    ./01_Compute/03_AzureContainerInstance/src/UI
+
+################################################
+# Push image to azure container registry
+################################################
+$acrUsername = (
+    az acr credential show `
+        --name $acrName `
+        --query 'username' `
+        --output tsv
+)
+
+$acrPassword = (
+    az acr credential show `
+        --name $acrName `
+        --query 'passwords[0].value' `
+        --output tsv
+)
+
+$acrLoginServer = (
+    az acr show `
+        --name $acrName `
+        --query 'loginServer' `
+        --output tsv `
+)
+
+docker login "$acrLoginServer" -u $acrUsername -p $acrPassword
+docker tag "$imageTag" "$acrName.azurecr.io/$imageTag"
+docker push "$acrLoginServer/lil-ui:latest"
+
+az acr repository list `
+    --name $acrName `
+    --output table
+
+
+################################################
+# Build UI Image (ACR)
+################################################
+$imagePlatform = "linux"
+$imageTagACR = "lil-ui-acr"
+$imageDockerfile = "./01_Compute/03_AzureContainerInstance/src/UI/Dockerfile"
+$imageSourceLocation = "./01_Compute/03_AzureContainerInstance/src/UI"
+
+az acr build `
+    --registry $acrName `
+    --image $imageTagACR `
+    --file $imageDockerfile `
+    --platform $imagePlatform $imageSourceLocation 
+
+az acr repository list `
+    --name $acrName `
+    --output table

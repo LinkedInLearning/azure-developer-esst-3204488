@@ -1,0 +1,3227 @@
+{
+  "status": "succeeded",
+  "createdDateTime": "2024-01-14T16:34:43Z",
+  "lastUpdatedDateTime": "2024-01-14T16:34:45Z",
+  "analyzeResult": {
+    "apiVersion": "2023-07-31",
+    "modelId": "prebuilt-invoice",
+    "stringIndexType": "utf16CodeUnit",
+    "content": "Sheraton Bellevue Hotel\n100 112th Avenue NE\nS\nBellevue, WA 98004\nUnited States\nSHERATON\nTel: 425-455-3330 Fax: 425-451-2473\nEST. 1937\nROBERT EICHENSEER\nPage Number\n:\n1\nMicrosoft Deutschland GmbH\nGuest Number\n:\n627816\nWalter Gropius-Str.5\nFolio ID\n:\nA\nMUNICH, 80807\nArrive Date\n:\n13-JUN-19\n13:27\nGermany\nDepart Date\n:\n18-JUN-19\n06:41\nNo. Of Guest\n1\nRoom Number\n630\nMarriott Bonvoy Number :\n2008\nTax Invoice\nSheraton Belle BVUSI JUN-18-2019 06:41 GSTONE\nDate\nReference\nDescription\nCharges (USD)\nCredits (USD)\n13-JUN-19\nRT630\nRoom Chrg - Special Corp\n214.00\n13-JUN-19\nRT630\nRoom Tax\n30.82\n14-JUN-19\nRT630\nRoom Chrg - Special Corp\n159.00\n14-JUN-19\nRT630\nRoom Tax\n22.90\n15-JUN-19\nRT630\nRoom Chrg - Special Corp\n159.00\n15-JUN-19\nRT630\nRoom Tax\n22.90\n16-JUN-19\nRT630\nRoom Chrg - Special Corp\n189.00\n16-JUN-19\nRT630\nRoom Tax\n27.22\n17-JUN-19\nRT630\nRoom Chrg - Special Corp\n214.00\n17-JUN-19\nRT630\nRoom Tax\n30.82\n18-JUN-19\nAX\nAmerican Express-1008\n-1069.66\n*** For Authorization Purpose Only ***\nxxxxxx1008\nDate\nTime\nCode\nAuthorized\n13-JUN-19\n09:11\n182866\n1391.00\nContinued on the next page",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0.22207219898700714,
+        "width": 2066,
+        "height": 2702,
+        "unit": "pixel",
+        "words": [
+          {
+            "content": "Sheraton",
+            "polygon": [174, 274, 279, 277, 280, 307, 174, 305],
+            "confidence": 0.994,
+            "span": { "offset": 0, "length": 8 }
+          },
+          {
+            "content": "Bellevue",
+            "polygon": [287, 277, 391, 281, 391, 310, 287, 307],
+            "confidence": 0.993,
+            "span": { "offset": 9, "length": 8 }
+          },
+          {
+            "content": "Hotel",
+            "polygon": [397, 281, 462, 283, 462, 313, 397, 310],
+            "confidence": 0.995,
+            "span": { "offset": 18, "length": 5 }
+          },
+          {
+            "content": "100",
+            "polygon": [174, 315, 217, 316, 217, 345, 174, 343],
+            "confidence": 0.996,
+            "span": { "offset": 24, "length": 3 }
+          },
+          {
+            "content": "112th",
+            "polygon": [226, 316, 287, 318, 287, 346, 226, 345],
+            "confidence": 0.993,
+            "span": { "offset": 28, "length": 5 }
+          },
+          {
+            "content": "Avenue",
+            "polygon": [297, 318, 386, 321, 386, 349, 297, 347],
+            "confidence": 0.994,
+            "span": { "offset": 34, "length": 6 }
+          },
+          {
+            "content": "NE",
+            "polygon": [391, 321, 426, 322, 426, 350, 391, 349],
+            "confidence": 0.995,
+            "span": { "offset": 41, "length": 2 }
+          },
+          {
+            "content": "S",
+            "polygon": [1526, 316, 1551, 316, 1551, 363, 1526, 363],
+            "confidence": 0.994,
+            "span": { "offset": 44, "length": 1 }
+          },
+          {
+            "content": "Bellevue,",
+            "polygon": [172, 356, 284, 358, 284, 386, 172, 385],
+            "confidence": 0.993,
+            "span": { "offset": 46, "length": 9 }
+          },
+          {
+            "content": "WA",
+            "polygon": [290, 358, 330, 359, 330, 387, 289, 386],
+            "confidence": 0.995,
+            "span": { "offset": 56, "length": 2 }
+          },
+          {
+            "content": "98004",
+            "polygon": [347, 360, 420, 362, 420, 389, 346, 388],
+            "confidence": 0.995,
+            "span": { "offset": 59, "length": 5 }
+          },
+          {
+            "content": "United",
+            "polygon": [174, 397, 250, 399, 251, 426, 174, 426],
+            "confidence": 0.994,
+            "span": { "offset": 65, "length": 6 }
+          },
+          {
+            "content": "States",
+            "polygon": [259, 399, 335, 400, 336, 428, 260, 427],
+            "confidence": 0.961,
+            "span": { "offset": 72, "length": 6 }
+          },
+          {
+            "content": "SHERATON",
+            "polygon": [1366, 412, 1709, 413, 1709, 464, 1367, 462],
+            "confidence": 0.993,
+            "span": { "offset": 79, "length": 8 }
+          },
+          {
+            "content": "Tel:",
+            "polygon": [177, 438, 218, 439, 218, 466, 177, 465],
+            "confidence": 0.978,
+            "span": { "offset": 88, "length": 4 }
+          },
+          {
+            "content": "425-455-3330",
+            "polygon": [223, 439, 387, 441, 387, 469, 223, 466],
+            "confidence": 0.993,
+            "span": { "offset": 93, "length": 12 }
+          },
+          {
+            "content": "Fax:",
+            "polygon": [394, 441, 449, 442, 449, 469, 394, 469],
+            "confidence": 0.991,
+            "span": { "offset": 106, "length": 4 }
+          },
+          {
+            "content": "425-451-2473",
+            "polygon": [454, 442, 618, 445, 618, 471, 454, 469],
+            "confidence": 0.992,
+            "span": { "offset": 111, "length": 12 }
+          },
+          {
+            "content": "EST.",
+            "polygon": [1497, 477, 1541, 477, 1541, 498, 1497, 498],
+            "confidence": 0.93,
+            "span": { "offset": 124, "length": 4 }
+          },
+          {
+            "content": "1937",
+            "polygon": [1545, 477, 1593, 477, 1593, 499, 1545, 498],
+            "confidence": 0.991,
+            "span": { "offset": 129, "length": 4 }
+          },
+          {
+            "content": "ROBERT",
+            "polygon": [173, 558, 283, 559, 283, 585, 173, 585],
+            "confidence": 0.994,
+            "span": { "offset": 134, "length": 6 }
+          },
+          {
+            "content": "EICHENSEER",
+            "polygon": [290, 559, 456, 561, 455, 588, 290, 585],
+            "confidence": 0.993,
+            "span": { "offset": 141, "length": 10 }
+          },
+          {
+            "content": "Page",
+            "polygon": [957, 565, 1018, 566, 1018, 596, 957, 594],
+            "confidence": 0.99,
+            "span": { "offset": 152, "length": 4 }
+          },
+          {
+            "content": "Number",
+            "polygon": [1024, 566, 1121, 566, 1121, 597, 1024, 596],
+            "confidence": 0.995,
+            "span": { "offset": 157, "length": 6 }
+          },
+          {
+            "content": ":",
+            "polygon": [1245, 573, 1254, 573, 1253, 595, 1244, 595],
+            "confidence": 0.936,
+            "span": { "offset": 164, "length": 1 }
+          },
+          {
+            "content": "1",
+            "polygon": [1312, 571, 1322, 571, 1321, 594, 1311, 593],
+            "confidence": 0.995,
+            "span": { "offset": 166, "length": 1 }
+          },
+          {
+            "content": "Microsoft",
+            "polygon": [171, 598, 282, 599, 282, 626, 172, 624],
+            "confidence": 0.984,
+            "span": { "offset": 168, "length": 9 }
+          },
+          {
+            "content": "Deutschland",
+            "polygon": [287, 599, 434, 600, 434, 628, 288, 626],
+            "confidence": 0.976,
+            "span": { "offset": 178, "length": 11 }
+          },
+          {
+            "content": "GmbH",
+            "polygon": [443, 600, 513, 601, 512, 629, 443, 628],
+            "confidence": 0.984,
+            "span": { "offset": 190, "length": 4 }
+          },
+          {
+            "content": "Guest",
+            "polygon": [957, 607, 1027, 607, 1027, 634, 957, 633],
+            "confidence": 0.995,
+            "span": { "offset": 195, "length": 5 }
+          },
+          {
+            "content": "Number",
+            "polygon": [1032, 607, 1128, 607, 1128, 632, 1032, 634],
+            "confidence": 0.994,
+            "span": { "offset": 201, "length": 6 }
+          },
+          {
+            "content": ":",
+            "polygon": [1244, 612, 1252, 612, 1251, 633, 1243, 632],
+            "confidence": 0.97,
+            "span": { "offset": 208, "length": 1 }
+          },
+          {
+            "content": "627816",
+            "polygon": [1308, 609, 1394, 610, 1394, 636, 1308, 635],
+            "confidence": 0.995,
+            "span": { "offset": 210, "length": 6 }
+          },
+          {
+            "content": "Walter",
+            "polygon": [173, 637, 252, 638, 252, 666, 173, 665],
+            "confidence": 0.995,
+            "span": { "offset": 217, "length": 6 }
+          },
+          {
+            "content": "Gropius-Str.5",
+            "polygon": [257, 638, 411, 640, 411, 668, 257, 666],
+            "confidence": 0.99,
+            "span": { "offset": 224, "length": 13 }
+          },
+          {
+            "content": "Folio",
+            "polygon": [956, 648, 1011, 647, 1012, 671, 956, 670],
+            "confidence": 0.994,
+            "span": { "offset": 238, "length": 5 }
+          },
+          {
+            "content": "ID",
+            "polygon": [1019, 647, 1039, 647, 1040, 671, 1020, 671],
+            "confidence": 0.995,
+            "span": { "offset": 244, "length": 2 }
+          },
+          {
+            "content": ":",
+            "polygon": [1242, 650, 1255, 650, 1255, 674, 1242, 674],
+            "confidence": 0.914,
+            "span": { "offset": 247, "length": 1 }
+          },
+          {
+            "content": "A",
+            "polygon": [1309, 649, 1322, 649, 1322, 673, 1309, 673],
+            "confidence": 0.995,
+            "span": { "offset": 249, "length": 1 }
+          },
+          {
+            "content": "MUNICH,",
+            "polygon": [172, 678, 290, 677, 290, 704, 172, 701],
+            "confidence": 0.993,
+            "span": { "offset": 251, "length": 7 }
+          },
+          {
+            "content": "80807",
+            "polygon": [295, 677, 366, 679, 366, 705, 295, 704],
+            "confidence": 0.995,
+            "span": { "offset": 259, "length": 5 }
+          },
+          {
+            "content": "Arrive",
+            "polygon": [957, 687, 1023, 686, 1023, 712, 957, 711],
+            "confidence": 0.994,
+            "span": { "offset": 265, "length": 6 }
+          },
+          {
+            "content": "Date",
+            "polygon": [1031, 686, 1086, 686, 1086, 713, 1031, 712],
+            "confidence": 0.993,
+            "span": { "offset": 272, "length": 4 }
+          },
+          {
+            "content": ":",
+            "polygon": [1242, 691, 1252, 691, 1253, 712, 1243, 712],
+            "confidence": 0.991,
+            "span": { "offset": 277, "length": 1 }
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [1310, 688, 1431, 690, 1431, 713, 1311, 713],
+            "confidence": 0.983,
+            "span": { "offset": 279, "length": 9 }
+          },
+          {
+            "content": "13:27",
+            "polygon": [1543, 688, 1604, 688, 1604, 712, 1543, 712],
+            "confidence": 0.993,
+            "span": { "offset": 289, "length": 5 }
+          },
+          {
+            "content": "Germany",
+            "polygon": [172, 715, 281, 719, 281, 746, 171, 742],
+            "confidence": 0.995,
+            "span": { "offset": 295, "length": 7 }
+          },
+          {
+            "content": "Depart",
+            "polygon": [955, 726, 1035, 726, 1035, 754, 955, 752],
+            "confidence": 0.994,
+            "span": { "offset": 303, "length": 6 }
+          },
+          {
+            "content": "Date",
+            "polygon": [1041, 725, 1096, 723, 1096, 754, 1041, 754],
+            "confidence": 0.992,
+            "span": { "offset": 310, "length": 4 }
+          },
+          {
+            "content": ":",
+            "polygon": [1243, 732, 1252, 732, 1252, 751, 1243, 751],
+            "confidence": 0.947,
+            "span": { "offset": 315, "length": 1 }
+          },
+          {
+            "content": "18-JUN-19",
+            "polygon": [1310, 729, 1431, 729, 1431, 751, 1310, 752],
+            "confidence": 0.983,
+            "span": { "offset": 317, "length": 9 }
+          },
+          {
+            "content": "06:41",
+            "polygon": [1541, 727, 1603, 727, 1603, 750, 1541, 750],
+            "confidence": 0.994,
+            "span": { "offset": 327, "length": 5 }
+          },
+          {
+            "content": "No.",
+            "polygon": [955, 763, 998, 764, 999, 790, 955, 788],
+            "confidence": 0.995,
+            "span": { "offset": 333, "length": 3 }
+          },
+          {
+            "content": "Of",
+            "polygon": [1004, 764, 1034, 764, 1034, 790, 1004, 790],
+            "confidence": 0.995,
+            "span": { "offset": 337, "length": 2 }
+          },
+          {
+            "content": "Guest",
+            "polygon": [1039, 764, 1109, 765, 1110, 791, 1040, 791],
+            "confidence": 0.994,
+            "span": { "offset": 340, "length": 5 }
+          },
+          {
+            "content": "1",
+            "polygon": [1310, 767, 1321, 767, 1321, 787, 1311, 787],
+            "confidence": 0.995,
+            "span": { "offset": 346, "length": 1 }
+          },
+          {
+            "content": "Room",
+            "polygon": [955, 804, 1014, 804, 1014, 828, 955, 827],
+            "confidence": 0.993,
+            "span": { "offset": 348, "length": 4 }
+          },
+          {
+            "content": "Number",
+            "polygon": [1030, 804, 1124, 803, 1124, 829, 1030, 828],
+            "confidence": 0.993,
+            "span": { "offset": 353, "length": 6 }
+          },
+          {
+            "content": "630",
+            "polygon": [1306, 805, 1347, 805, 1347, 826, 1306, 826],
+            "confidence": 0.996,
+            "span": { "offset": 360, "length": 3 }
+          },
+          {
+            "content": "Marriott",
+            "polygon": [954, 840, 1044, 841, 1044, 867, 954, 866],
+            "confidence": 0.982,
+            "span": { "offset": 364, "length": 8 }
+          },
+          {
+            "content": "Bonvoy",
+            "polygon": [1050, 841, 1138, 841, 1138, 868, 1050, 867],
+            "confidence": 0.994,
+            "span": { "offset": 373, "length": 6 }
+          },
+          {
+            "content": "Number",
+            "polygon": [1143, 841, 1234, 841, 1234, 868, 1143, 868],
+            "confidence": 0.994,
+            "span": { "offset": 380, "length": 6 }
+          },
+          {
+            "content": ":",
+            "polygon": [1240, 841, 1251, 841, 1251, 868, 1240, 868],
+            "confidence": 0.994,
+            "span": { "offset": 387, "length": 1 }
+          },
+          {
+            "content": "2008",
+            "polygon": [1309, 843, 1362, 843, 1362, 864, 1309, 864],
+            "confidence": 0.993,
+            "span": { "offset": 389, "length": 4 }
+          },
+          {
+            "content": "Tax",
+            "polygon": [957, 915, 994, 914, 994, 941, 957, 940],
+            "confidence": 0.995,
+            "span": { "offset": 394, "length": 3 }
+          },
+          {
+            "content": "Invoice",
+            "polygon": [999, 914, 1085, 914, 1085, 942, 999, 941],
+            "confidence": 0.912,
+            "span": { "offset": 398, "length": 7 }
+          },
+          {
+            "content": "Sheraton",
+            "polygon": [170, 1028, 276, 1028, 276, 1057, 170, 1056],
+            "confidence": 0.993,
+            "span": { "offset": 406, "length": 8 }
+          },
+          {
+            "content": "Belle",
+            "polygon": [284, 1028, 343, 1028, 343, 1058, 284, 1057],
+            "confidence": 0.995,
+            "span": { "offset": 415, "length": 5 }
+          },
+          {
+            "content": "BVUSI",
+            "polygon": [349, 1028, 436, 1028, 436, 1058, 349, 1058],
+            "confidence": 0.987,
+            "span": { "offset": 421, "length": 5 }
+          },
+          {
+            "content": "JUN-18-2019",
+            "polygon": [446, 1028, 604, 1029, 604, 1060, 446, 1059],
+            "confidence": 0.993,
+            "span": { "offset": 427, "length": 11 }
+          },
+          {
+            "content": "06:41",
+            "polygon": [616, 1030, 687, 1030, 687, 1060, 616, 1060],
+            "confidence": 0.993,
+            "span": { "offset": 439, "length": 5 }
+          },
+          {
+            "content": "GSTONE",
+            "polygon": [699, 1030, 807, 1032, 807, 1061, 699, 1060],
+            "confidence": 0.995,
+            "span": { "offset": 445, "length": 6 }
+          },
+          {
+            "content": "Date",
+            "polygon": [171, 1070, 226, 1070, 226, 1094, 171, 1094],
+            "confidence": 0.991,
+            "span": { "offset": 452, "length": 4 }
+          },
+          {
+            "content": "Reference",
+            "polygon": [336, 1069, 459, 1070, 460, 1099, 336, 1097],
+            "confidence": 0.993,
+            "span": { "offset": 457, "length": 9 }
+          },
+          {
+            "content": "Description",
+            "polygon": [526, 1071, 658, 1072, 658, 1102, 526, 1099],
+            "confidence": 0.971,
+            "span": { "offset": 467, "length": 11 }
+          },
+          {
+            "content": "Charges",
+            "polygon": [1256, 1073, 1354, 1074, 1354, 1103, 1256, 1103],
+            "confidence": 0.984,
+            "span": { "offset": 479, "length": 7 }
+          },
+          {
+            "content": "(USD)",
+            "polygon": [1360, 1074, 1433, 1074, 1433, 1104, 1360, 1103],
+            "confidence": 0.992,
+            "span": { "offset": 487, "length": 5 }
+          },
+          {
+            "content": "Credits",
+            "polygon": [1583, 1073, 1665, 1073, 1666, 1100, 1584, 1100],
+            "confidence": 0.992,
+            "span": { "offset": 493, "length": 7 }
+          },
+          {
+            "content": "(USD)",
+            "polygon": [1671, 1073, 1743, 1072, 1743, 1101, 1671, 1100],
+            "confidence": 0.967,
+            "span": { "offset": 501, "length": 5 }
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [173, 1109, 300, 1110, 300, 1136, 174, 1135],
+            "confidence": 0.995,
+            "span": { "offset": 507, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [430, 1110, 510, 1111, 510, 1137, 431, 1136],
+            "confidence": 0.994,
+            "span": { "offset": 517, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [619, 1111, 685, 1111, 686, 1143, 621, 1142],
+            "confidence": 0.991,
+            "span": { "offset": 523, "length": 4 }
+          },
+          {
+            "content": "Chrg",
+            "polygon": [699, 1111, 754, 1111, 756, 1144, 701, 1143],
+            "confidence": 0.987,
+            "span": { "offset": 528, "length": 4 }
+          },
+          {
+            "content": "-",
+            "polygon": [761, 1111, 776, 1111, 777, 1144, 762, 1144],
+            "confidence": 0.995,
+            "span": { "offset": 533, "length": 1 }
+          },
+          {
+            "content": "Special",
+            "polygon": [782, 1111, 869, 1111, 870, 1144, 783, 1144],
+            "confidence": 0.993,
+            "span": { "offset": 535, "length": 7 }
+          },
+          {
+            "content": "Corp",
+            "polygon": [875, 1111, 932, 1111, 933, 1143, 876, 1144],
+            "confidence": 0.992,
+            "span": { "offset": 543, "length": 4 }
+          },
+          {
+            "content": "214.00",
+            "polygon": [1361, 1115, 1437, 1115, 1438, 1140, 1362, 1139],
+            "confidence": 0.995,
+            "span": { "offset": 548, "length": 6 }
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [174, 1150, 299, 1150, 300, 1175, 175, 1174],
+            "confidence": 0.995,
+            "span": { "offset": 555, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1151, 510, 1151, 510, 1177, 432, 1176],
+            "confidence": 0.994,
+            "span": { "offset": 565, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [622, 1151, 684, 1151, 684, 1179, 622, 1179],
+            "confidence": 0.992,
+            "span": { "offset": 571, "length": 4 }
+          },
+          {
+            "content": "Tax",
+            "polygon": [702, 1151, 743, 1151, 743, 1179, 702, 1179],
+            "confidence": 0.993,
+            "span": { "offset": 576, "length": 3 }
+          },
+          {
+            "content": "30.82",
+            "polygon": [1373, 1154, 1439, 1153, 1439, 1179, 1373, 1177],
+            "confidence": 0.995,
+            "span": { "offset": 580, "length": 5 }
+          },
+          {
+            "content": "14-JUN-19",
+            "polygon": [174, 1189, 300, 1189, 300, 1215, 175, 1215],
+            "confidence": 0.991,
+            "span": { "offset": 586, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1190, 510, 1190, 509, 1217, 431, 1215],
+            "confidence": 0.994,
+            "span": { "offset": 596, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [620, 1189, 686, 1190, 686, 1222, 621, 1221],
+            "confidence": 0.992,
+            "span": { "offset": 602, "length": 4 }
+          },
+          {
+            "content": "Chrg",
+            "polygon": [700, 1190, 755, 1190, 755, 1222, 701, 1222],
+            "confidence": 0.983,
+            "span": { "offset": 607, "length": 4 }
+          },
+          {
+            "content": "-",
+            "polygon": [761, 1190, 776, 1190, 776, 1222, 762, 1222],
+            "confidence": 0.995,
+            "span": { "offset": 612, "length": 1 }
+          },
+          {
+            "content": "Special",
+            "polygon": [782, 1190, 866, 1190, 867, 1222, 783, 1222],
+            "confidence": 0.993,
+            "span": { "offset": 614, "length": 7 }
+          },
+          {
+            "content": "Corp",
+            "polygon": [873, 1190, 932, 1191, 932, 1222, 873, 1222],
+            "confidence": 0.99,
+            "span": { "offset": 622, "length": 4 }
+          },
+          {
+            "content": "159.00",
+            "polygon": [1360, 1194, 1436, 1193, 1436, 1217, 1361, 1216],
+            "confidence": 0.995,
+            "span": { "offset": 627, "length": 6 }
+          },
+          {
+            "content": "14-JUN-19",
+            "polygon": [175, 1230, 300, 1230, 300, 1255, 175, 1253],
+            "confidence": 0.972,
+            "span": { "offset": 634, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [432, 1230, 510, 1230, 510, 1257, 432, 1255],
+            "confidence": 0.994,
+            "span": { "offset": 644, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [620, 1230, 685, 1230, 685, 1258, 621, 1258],
+            "confidence": 0.991,
+            "span": { "offset": 650, "length": 4 }
+          },
+          {
+            "content": "Tax",
+            "polygon": [703, 1230, 744, 1231, 744, 1258, 704, 1258],
+            "confidence": 0.997,
+            "span": { "offset": 655, "length": 3 }
+          },
+          {
+            "content": "22.90",
+            "polygon": [1374, 1231, 1435, 1231, 1435, 1255, 1374, 1255],
+            "confidence": 0.995,
+            "span": { "offset": 659, "length": 5 }
+          },
+          {
+            "content": "15-JUN-19",
+            "polygon": [175, 1268, 301, 1268, 301, 1294, 175, 1294],
+            "confidence": 0.991,
+            "span": { "offset": 665, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1269, 511, 1269, 511, 1295, 431, 1295],
+            "confidence": 0.994,
+            "span": { "offset": 675, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [620, 1268, 684, 1269, 684, 1301, 621, 1300],
+            "confidence": 0.991,
+            "span": { "offset": 681, "length": 4 }
+          },
+          {
+            "content": "Chrg",
+            "polygon": [700, 1269, 754, 1269, 755, 1301, 701, 1301],
+            "confidence": 0.988,
+            "span": { "offset": 686, "length": 4 }
+          },
+          {
+            "content": "-",
+            "polygon": [760, 1270, 775, 1270, 775, 1302, 761, 1302],
+            "confidence": 0.995,
+            "span": { "offset": 691, "length": 1 }
+          },
+          {
+            "content": "Special",
+            "polygon": [781, 1270, 868, 1270, 868, 1301, 781, 1302],
+            "confidence": 0.992,
+            "span": { "offset": 693, "length": 7 }
+          },
+          {
+            "content": "Corp",
+            "polygon": [874, 1270, 930, 1270, 930, 1301, 874, 1301],
+            "confidence": 0.992,
+            "span": { "offset": 701, "length": 4 }
+          },
+          {
+            "content": "159.00",
+            "polygon": [1359, 1271, 1435, 1271, 1435, 1294, 1359, 1294],
+            "confidence": 0.995,
+            "span": { "offset": 706, "length": 6 }
+          },
+          {
+            "content": "15-JUN-19",
+            "polygon": [174, 1308, 300, 1308, 300, 1334, 175, 1333],
+            "confidence": 0.982,
+            "span": { "offset": 713, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [432, 1308, 510, 1309, 510, 1334, 432, 1333],
+            "confidence": 0.994,
+            "span": { "offset": 723, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [621, 1309, 684, 1309, 683, 1336, 621, 1336],
+            "confidence": 0.992,
+            "span": { "offset": 729, "length": 4 }
+          },
+          {
+            "content": "Tax",
+            "polygon": [703, 1309, 744, 1310, 744, 1336, 703, 1336],
+            "confidence": 0.995,
+            "span": { "offset": 734, "length": 3 }
+          },
+          {
+            "content": "22.90",
+            "polygon": [1372, 1309, 1434, 1310, 1434, 1333, 1373, 1332],
+            "confidence": 0.993,
+            "span": { "offset": 738, "length": 5 }
+          },
+          {
+            "content": "16-JUN-19",
+            "polygon": [174, 1347, 299, 1347, 299, 1373, 175, 1371],
+            "confidence": 0.994,
+            "span": { "offset": 744, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [432, 1348, 509, 1347, 510, 1373, 432, 1373],
+            "confidence": 0.994,
+            "span": { "offset": 754, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [621, 1348, 685, 1347, 685, 1377, 621, 1377],
+            "confidence": 0.992,
+            "span": { "offset": 760, "length": 4 }
+          },
+          {
+            "content": "Chrg",
+            "polygon": [699, 1347, 755, 1347, 755, 1378, 699, 1377],
+            "confidence": 0.983,
+            "span": { "offset": 765, "length": 4 }
+          },
+          {
+            "content": "-",
+            "polygon": [761, 1347, 775, 1347, 775, 1378, 761, 1378],
+            "confidence": 0.995,
+            "span": { "offset": 770, "length": 1 }
+          },
+          {
+            "content": "Special",
+            "polygon": [781, 1347, 867, 1347, 867, 1378, 781, 1378],
+            "confidence": 0.993,
+            "span": { "offset": 772, "length": 7 }
+          },
+          {
+            "content": "Corp",
+            "polygon": [873, 1347, 928, 1347, 928, 1378, 873, 1378],
+            "confidence": 0.991,
+            "span": { "offset": 780, "length": 4 }
+          },
+          {
+            "content": "189.00",
+            "polygon": [1359, 1347, 1433, 1349, 1433, 1372, 1359, 1370],
+            "confidence": 0.995,
+            "span": { "offset": 785, "length": 6 }
+          },
+          {
+            "content": "16-JUN-19",
+            "polygon": [174, 1387, 298, 1386, 298, 1412, 175, 1411],
+            "confidence": 0.991,
+            "span": { "offset": 792, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1387, 509, 1387, 509, 1412, 432, 1412],
+            "confidence": 0.994,
+            "span": { "offset": 802, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [621, 1387, 683, 1387, 683, 1413, 621, 1413],
+            "confidence": 0.993,
+            "span": { "offset": 808, "length": 4 }
+          },
+          {
+            "content": "Tax",
+            "polygon": [702, 1387, 742, 1387, 742, 1414, 702, 1413],
+            "confidence": 0.995,
+            "span": { "offset": 813, "length": 3 }
+          },
+          {
+            "content": "27.22",
+            "polygon": [1372, 1386, 1434, 1385, 1434, 1408, 1372, 1409],
+            "confidence": 0.993,
+            "span": { "offset": 817, "length": 5 }
+          },
+          {
+            "content": "17-JUN-19",
+            "polygon": [174, 1427, 298, 1426, 298, 1451, 174, 1450],
+            "confidence": 0.961,
+            "span": { "offset": 823, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1426, 507, 1426, 508, 1450, 431, 1449],
+            "confidence": 0.994,
+            "span": { "offset": 833, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [620, 1425, 684, 1424, 685, 1455, 621, 1454],
+            "confidence": 0.992,
+            "span": { "offset": 839, "length": 4 }
+          },
+          {
+            "content": "Chrg",
+            "polygon": [698, 1424, 755, 1424, 755, 1455, 699, 1455],
+            "confidence": 0.986,
+            "span": { "offset": 844, "length": 4 }
+          },
+          {
+            "content": "-",
+            "polygon": [761, 1424, 775, 1424, 775, 1455, 761, 1455],
+            "confidence": 0.995,
+            "span": { "offset": 849, "length": 1 }
+          },
+          {
+            "content": "Special",
+            "polygon": [781, 1424, 868, 1424, 868, 1455, 781, 1455],
+            "confidence": 0.993,
+            "span": { "offset": 851, "length": 7 }
+          },
+          {
+            "content": "Corp",
+            "polygon": [874, 1424, 930, 1425, 930, 1455, 874, 1455],
+            "confidence": 0.992,
+            "span": { "offset": 859, "length": 4 }
+          },
+          {
+            "content": "214.00",
+            "polygon": [1358, 1424, 1432, 1424, 1432, 1448, 1358, 1448],
+            "confidence": 0.995,
+            "span": { "offset": 864, "length": 6 }
+          },
+          {
+            "content": "17-JUN-19",
+            "polygon": [173, 1465, 297, 1465, 298, 1490, 174, 1488],
+            "confidence": 0.989,
+            "span": { "offset": 871, "length": 9 }
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1465, 507, 1465, 507, 1489, 432, 1488],
+            "confidence": 0.994,
+            "span": { "offset": 881, "length": 5 }
+          },
+          {
+            "content": "Room",
+            "polygon": [620, 1464, 682, 1464, 683, 1491, 621, 1489],
+            "confidence": 0.992,
+            "span": { "offset": 887, "length": 4 }
+          },
+          {
+            "content": "Tax",
+            "polygon": [701, 1464, 741, 1465, 741, 1491, 702, 1491],
+            "confidence": 0.981,
+            "span": { "offset": 892, "length": 3 }
+          },
+          {
+            "content": "30.82",
+            "polygon": [1370, 1463, 1435, 1463, 1435, 1487, 1371, 1486],
+            "confidence": 0.994,
+            "span": { "offset": 896, "length": 5 }
+          },
+          {
+            "content": "18-JUN-19",
+            "polygon": [173, 1503, 297, 1503, 297, 1529, 173, 1527],
+            "confidence": 0.975,
+            "span": { "offset": 902, "length": 9 }
+          },
+          {
+            "content": "AX",
+            "polygon": [433, 1503, 464, 1503, 464, 1525, 434, 1525],
+            "confidence": 0.995,
+            "span": { "offset": 912, "length": 2 }
+          },
+          {
+            "content": "American",
+            "polygon": [621, 1502, 730, 1502, 731, 1531, 622, 1530],
+            "confidence": 0.992,
+            "span": { "offset": 915, "length": 8 }
+          },
+          {
+            "content": "Express-1008",
+            "polygon": [738, 1502, 900, 1501, 901, 1530, 738, 1531],
+            "confidence": 0.982,
+            "span": { "offset": 924, "length": 12 }
+          },
+          {
+            "content": "-1069.66",
+            "polygon": [1653, 1499, 1757, 1497, 1757, 1521, 1654, 1521],
+            "confidence": 0.957,
+            "span": { "offset": 937, "length": 8 }
+          },
+          {
+            "content": "***",
+            "polygon": [337, 1542, 360, 1541, 360, 1566, 337, 1565],
+            "confidence": 0.989,
+            "span": { "offset": 946, "length": 3 }
+          },
+          {
+            "content": "For",
+            "polygon": [366, 1541, 407, 1541, 407, 1567, 366, 1566],
+            "confidence": 0.995,
+            "span": { "offset": 950, "length": 3 }
+          },
+          {
+            "content": "Authorization",
+            "polygon": [413, 1541, 563, 1541, 563, 1570, 413, 1567],
+            "confidence": 0.982,
+            "span": { "offset": 954, "length": 13 }
+          },
+          {
+            "content": "Purpose",
+            "polygon": [573, 1541, 671, 1541, 671, 1570, 573, 1570],
+            "confidence": 0.993,
+            "span": { "offset": 968, "length": 7 }
+          },
+          {
+            "content": "Only",
+            "polygon": [680, 1541, 725, 1541, 725, 1570, 680, 1570],
+            "confidence": 0.989,
+            "span": { "offset": 976, "length": 4 }
+          },
+          {
+            "content": "***",
+            "polygon": [730, 1541, 764, 1541, 764, 1569, 730, 1569],
+            "confidence": 0.929,
+            "span": { "offset": 981, "length": 3 }
+          },
+          {
+            "content": "xxxxxx1008",
+            "polygon": [337, 1584, 471, 1583, 472, 1604, 337, 1607],
+            "confidence": 0.981,
+            "span": { "offset": 985, "length": 10 }
+          },
+          {
+            "content": "Date",
+            "polygon": [336, 1621, 390, 1621, 390, 1643, 336, 1643],
+            "confidence": 0.992,
+            "span": { "offset": 996, "length": 4 }
+          },
+          {
+            "content": "Time",
+            "polygon": [551, 1619, 605, 1619, 605, 1643, 551, 1643],
+            "confidence": 0.99,
+            "span": { "offset": 1001, "length": 4 }
+          },
+          {
+            "content": "Code",
+            "polygon": [739, 1619, 802, 1619, 802, 1643, 739, 1643],
+            "confidence": 0.993,
+            "span": { "offset": 1006, "length": 4 }
+          },
+          {
+            "content": "Authorized",
+            "polygon": [1020, 1618, 1142, 1617, 1142, 1643, 1020, 1642],
+            "confidence": 0.993,
+            "span": { "offset": 1011, "length": 10 }
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [338, 1661, 460, 1660, 461, 1683, 338, 1683],
+            "confidence": 0.994,
+            "span": { "offset": 1022, "length": 9 }
+          },
+          {
+            "content": "09:11",
+            "polygon": [548, 1658, 611, 1658, 611, 1682, 548, 1682],
+            "confidence": 0.994,
+            "span": { "offset": 1032, "length": 5 }
+          },
+          {
+            "content": "182866",
+            "polygon": [741, 1658, 824, 1658, 824, 1683, 741, 1683],
+            "confidence": 0.995,
+            "span": { "offset": 1038, "length": 6 }
+          },
+          {
+            "content": "1391.00",
+            "polygon": [1044, 1658, 1131, 1657, 1131, 1679, 1045, 1679],
+            "confidence": 0.995,
+            "span": { "offset": 1045, "length": 7 }
+          },
+          {
+            "content": "Continued",
+            "polygon": [828, 2155, 946, 2155, 947, 2185, 829, 2186],
+            "confidence": 0.987,
+            "span": { "offset": 1053, "length": 9 }
+          },
+          {
+            "content": "on",
+            "polygon": [952, 2155, 980, 2155, 981, 2185, 953, 2185],
+            "confidence": 0.995,
+            "span": { "offset": 1063, "length": 2 }
+          },
+          {
+            "content": "the",
+            "polygon": [986, 2155, 1025, 2154, 1025, 2185, 987, 2185],
+            "confidence": 0.995,
+            "span": { "offset": 1066, "length": 3 }
+          },
+          {
+            "content": "next",
+            "polygon": [1031, 2154, 1081, 2154, 1081, 2185, 1031, 2185],
+            "confidence": 0.992,
+            "span": { "offset": 1070, "length": 4 }
+          },
+          {
+            "content": "page",
+            "polygon": [1087, 2154, 1147, 2154, 1147, 2184, 1087, 2185],
+            "confidence": 0.993,
+            "span": { "offset": 1075, "length": 4 }
+          }
+        ],
+        "lines": [
+          {
+            "content": "Sheraton Bellevue Hotel",
+            "polygon": [170, 273, 462, 282, 461, 313, 170, 304],
+            "spans": [{ "offset": 0, "length": 23 }]
+          },
+          {
+            "content": "100 112th Avenue NE",
+            "polygon": [172, 315, 431, 321, 430, 349, 172, 342],
+            "spans": [{ "offset": 24, "length": 19 }]
+          },
+          {
+            "content": "S",
+            "polygon": [1524, 316, 1566, 316, 1567, 362, 1525, 363],
+            "spans": [{ "offset": 44, "length": 1 }]
+          },
+          {
+            "content": "Bellevue, WA 98004",
+            "polygon": [172, 356, 421, 361, 420, 389, 172, 384],
+            "spans": [{ "offset": 46, "length": 18 }]
+          },
+          {
+            "content": "United States",
+            "polygon": [172, 397, 336, 400, 336, 428, 172, 425],
+            "spans": [{ "offset": 65, "length": 13 }]
+          },
+          {
+            "content": "SHERATON",
+            "polygon": [1363, 411, 1729, 412, 1729, 464, 1363, 462],
+            "spans": [{ "offset": 79, "length": 8 }]
+          },
+          {
+            "content": "Tel: 425-455-3330 Fax: 425-451-2473",
+            "polygon": [173, 438, 619, 444, 619, 471, 173, 464],
+            "spans": [{ "offset": 88, "length": 35 }]
+          },
+          {
+            "content": "EST. 1937",
+            "polygon": [1494, 476, 1594, 477, 1594, 498, 1494, 497],
+            "spans": [{ "offset": 124, "length": 9 }]
+          },
+          {
+            "content": "ROBERT EICHENSEER",
+            "polygon": [172, 557, 464, 561, 463, 587, 172, 584],
+            "spans": [{ "offset": 134, "length": 17 }]
+          },
+          {
+            "content": "Page Number",
+            "polygon": [956, 565, 1121, 566, 1120, 597, 956, 595],
+            "spans": [{ "offset": 152, "length": 11 }]
+          },
+          {
+            "content": ":",
+            "polygon": [1243, 573, 1254, 573, 1254, 595, 1242, 594],
+            "spans": [{ "offset": 164, "length": 1 }]
+          },
+          {
+            "content": "1",
+            "polygon": [1311, 571, 1323, 571, 1323, 594, 1311, 593],
+            "spans": [{ "offset": 166, "length": 1 }]
+          },
+          {
+            "content": "Microsoft Deutschland GmbH",
+            "polygon": [171, 597, 522, 601, 522, 628, 171, 624],
+            "spans": [{ "offset": 168, "length": 26 }]
+          },
+          {
+            "content": "Guest Number",
+            "polygon": [956, 606, 1127, 606, 1127, 633, 956, 633],
+            "spans": [{ "offset": 195, "length": 12 }]
+          },
+          {
+            "content": ":",
+            "polygon": [1244, 612, 1252, 612, 1252, 633, 1243, 632],
+            "spans": [{ "offset": 208, "length": 1 }]
+          },
+          {
+            "content": "627816",
+            "polygon": [1306, 609, 1398, 610, 1397, 635, 1306, 634],
+            "spans": [{ "offset": 210, "length": 6 }]
+          },
+          {
+            "content": "Walter Gropius-Str.5",
+            "polygon": [171, 637, 413, 640, 413, 667, 171, 664],
+            "spans": [{ "offset": 217, "length": 20 }]
+          },
+          {
+            "content": "Folio ID",
+            "polygon": [956, 647, 1048, 647, 1048, 671, 956, 670],
+            "spans": [{ "offset": 238, "length": 8 }]
+          },
+          {
+            "content": ":",
+            "polygon": [1242, 650, 1256, 650, 1255, 674, 1242, 674],
+            "spans": [{ "offset": 247, "length": 1 }]
+          },
+          {
+            "content": "A",
+            "polygon": [1305, 649, 1326, 649, 1326, 673, 1305, 672],
+            "spans": [{ "offset": 249, "length": 1 }]
+          },
+          {
+            "content": "MUNICH, 80807",
+            "polygon": [171, 676, 367, 677, 367, 704, 171, 701],
+            "spans": [{ "offset": 251, "length": 13 }]
+          },
+          {
+            "content": "Arrive Date",
+            "polygon": [955, 685, 1089, 686, 1089, 712, 955, 711],
+            "spans": [{ "offset": 265, "length": 11 }]
+          },
+          {
+            "content": ":",
+            "polygon": [1242, 692, 1254, 691, 1254, 712, 1242, 712],
+            "spans": [{ "offset": 277, "length": 1 }]
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [1307, 688, 1434, 689, 1434, 713, 1307, 712],
+            "spans": [{ "offset": 279, "length": 9 }]
+          },
+          {
+            "content": "13:27",
+            "polygon": [1542, 689, 1605, 688, 1605, 712, 1543, 711],
+            "spans": [{ "offset": 289, "length": 5 }]
+          },
+          {
+            "content": "Germany",
+            "polygon": [172, 715, 283, 718, 282, 746, 171, 742],
+            "spans": [{ "offset": 295, "length": 7 }]
+          },
+          {
+            "content": "Depart Date",
+            "polygon": [954, 723, 1104, 723, 1104, 753, 954, 754],
+            "spans": [{ "offset": 303, "length": 11 }]
+          },
+          {
+            "content": ":",
+            "polygon": [1242, 732, 1253, 732, 1253, 751, 1242, 751],
+            "spans": [{ "offset": 315, "length": 1 }]
+          },
+          {
+            "content": "18-JUN-19",
+            "polygon": [1307, 728, 1432, 728, 1432, 751, 1307, 751],
+            "spans": [{ "offset": 317, "length": 9 }]
+          },
+          {
+            "content": "06:41",
+            "polygon": [1540, 728, 1603, 727, 1603, 750, 1541, 749],
+            "spans": [{ "offset": 327, "length": 5 }]
+          },
+          {
+            "content": "No. Of Guest",
+            "polygon": [954, 763, 1110, 765, 1110, 791, 954, 788],
+            "spans": [{ "offset": 333, "length": 12 }]
+          },
+          {
+            "content": "1",
+            "polygon": [1307, 768, 1322, 767, 1322, 787, 1307, 787],
+            "spans": [{ "offset": 346, "length": 1 }]
+          },
+          {
+            "content": "Room Number",
+            "polygon": [953, 803, 1124, 803, 1124, 828, 953, 827],
+            "spans": [{ "offset": 348, "length": 11 }]
+          },
+          {
+            "content": "630",
+            "polygon": [1304, 806, 1349, 805, 1349, 826, 1305, 826],
+            "spans": [{ "offset": 360, "length": 3 }]
+          },
+          {
+            "content": "Marriott Bonvoy Number :",
+            "polygon": [953, 839, 1251, 841, 1251, 868, 953, 866],
+            "spans": [{ "offset": 364, "length": 24 }]
+          },
+          {
+            "content": "2008",
+            "polygon": [1305, 843, 1362, 843, 1363, 864, 1306, 864],
+            "spans": [{ "offset": 389, "length": 4 }]
+          },
+          {
+            "content": "Tax Invoice",
+            "polygon": [953, 914, 1087, 914, 1086, 941, 953, 940],
+            "spans": [{ "offset": 394, "length": 11 }]
+          },
+          {
+            "content": "Sheraton Belle BVUSI JUN-18-2019 06:41 GSTONE",
+            "polygon": [168, 1027, 810, 1030, 810, 1060, 168, 1056],
+            "spans": [{ "offset": 406, "length": 45 }]
+          },
+          {
+            "content": "Date",
+            "polygon": [170, 1071, 229, 1070, 229, 1094, 170, 1093],
+            "spans": [{ "offset": 452, "length": 4 }]
+          },
+          {
+            "content": "Reference",
+            "polygon": [335, 1068, 463, 1070, 463, 1098, 335, 1096],
+            "spans": [{ "offset": 457, "length": 9 }]
+          },
+          {
+            "content": "Description",
+            "polygon": [526, 1071, 661, 1072, 661, 1101, 526, 1099],
+            "spans": [{ "offset": 467, "length": 11 }]
+          },
+          {
+            "content": "Charges (USD)",
+            "polygon": [1255, 1073, 1433, 1074, 1432, 1103, 1255, 1102],
+            "spans": [{ "offset": 479, "length": 13 }]
+          },
+          {
+            "content": "Credits (USD)",
+            "polygon": [1580, 1072, 1742, 1072, 1743, 1100, 1580, 1100],
+            "spans": [{ "offset": 493, "length": 13 }]
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [172, 1109, 301, 1110, 301, 1136, 172, 1134],
+            "spans": [{ "offset": 507, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [429, 1110, 513, 1110, 513, 1136, 429, 1135],
+            "spans": [{ "offset": 517, "length": 5 }]
+          },
+          {
+            "content": "Room Chrg - Special Corp",
+            "polygon": [619, 1110, 933, 1111, 933, 1143, 619, 1142],
+            "spans": [{ "offset": 523, "length": 24 }]
+          },
+          {
+            "content": "214.00",
+            "polygon": [1356, 1114, 1439, 1114, 1439, 1139, 1356, 1138],
+            "spans": [{ "offset": 548, "length": 6 }]
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [172, 1149, 300, 1149, 300, 1174, 172, 1173],
+            "spans": [{ "offset": 555, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [428, 1150, 512, 1150, 511, 1176, 428, 1175],
+            "spans": [{ "offset": 565, "length": 5 }]
+          },
+          {
+            "content": "Room Tax",
+            "polygon": [620, 1151, 743, 1151, 743, 1178, 620, 1178],
+            "spans": [{ "offset": 571, "length": 8 }]
+          },
+          {
+            "content": "30.82",
+            "polygon": [1370, 1153, 1440, 1153, 1440, 1178, 1370, 1178],
+            "spans": [{ "offset": 580, "length": 5 }]
+          },
+          {
+            "content": "14-JUN-19",
+            "polygon": [172, 1188, 301, 1188, 301, 1214, 172, 1214],
+            "spans": [{ "offset": 586, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [429, 1189, 513, 1190, 512, 1216, 429, 1215],
+            "spans": [{ "offset": 596, "length": 5 }]
+          },
+          {
+            "content": "Room Chrg - Special Corp",
+            "polygon": [618, 1189, 933, 1190, 933, 1222, 618, 1221],
+            "spans": [{ "offset": 602, "length": 24 }]
+          },
+          {
+            "content": "159.00",
+            "polygon": [1357, 1192, 1439, 1192, 1439, 1216, 1357, 1216],
+            "spans": [{ "offset": 627, "length": 6 }]
+          },
+          {
+            "content": "14-JUN-19",
+            "polygon": [173, 1229, 300, 1229, 300, 1255, 173, 1253],
+            "spans": [{ "offset": 634, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [430, 1229, 512, 1229, 512, 1256, 430, 1255],
+            "spans": [{ "offset": 644, "length": 5 }]
+          },
+          {
+            "content": "Room Tax",
+            "polygon": [618, 1229, 744, 1230, 744, 1258, 618, 1257],
+            "spans": [{ "offset": 650, "length": 8 }]
+          },
+          {
+            "content": "22.90",
+            "polygon": [1371, 1231, 1438, 1231, 1438, 1255, 1371, 1255],
+            "spans": [{ "offset": 659, "length": 5 }]
+          },
+          {
+            "content": "15-JUN-19",
+            "polygon": [173, 1267, 302, 1267, 302, 1294, 173, 1293],
+            "spans": [{ "offset": 665, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1269, 512, 1269, 512, 1294, 431, 1294],
+            "spans": [{ "offset": 675, "length": 5 }]
+          },
+          {
+            "content": "Room Chrg - Special Corp",
+            "polygon": [620, 1268, 931, 1269, 931, 1301, 620, 1300],
+            "spans": [{ "offset": 681, "length": 24 }]
+          },
+          {
+            "content": "159.00",
+            "polygon": [1358, 1270, 1438, 1270, 1438, 1293, 1358, 1293],
+            "spans": [{ "offset": 706, "length": 6 }]
+          },
+          {
+            "content": "15-JUN-19",
+            "polygon": [174, 1307, 302, 1307, 302, 1333, 174, 1333],
+            "spans": [{ "offset": 713, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [430, 1308, 512, 1309, 512, 1333, 430, 1332],
+            "spans": [{ "offset": 723, "length": 5 }]
+          },
+          {
+            "content": "Room Tax",
+            "polygon": [620, 1308, 744, 1309, 744, 1336, 620, 1335],
+            "spans": [{ "offset": 729, "length": 8 }]
+          },
+          {
+            "content": "22.90",
+            "polygon": [1369, 1309, 1438, 1309, 1438, 1332, 1369, 1331],
+            "spans": [{ "offset": 738, "length": 5 }]
+          },
+          {
+            "content": "16-JUN-19",
+            "polygon": [172, 1346, 302, 1346, 302, 1372, 172, 1371],
+            "spans": [{ "offset": 744, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [430, 1347, 512, 1347, 512, 1372, 430, 1372],
+            "spans": [{ "offset": 754, "length": 5 }]
+          },
+          {
+            "content": "Room Chrg - Special Corp",
+            "polygon": [620, 1346, 929, 1346, 929, 1377, 620, 1377],
+            "spans": [{ "offset": 760, "length": 24 }]
+          },
+          {
+            "content": "189.00",
+            "polygon": [1356, 1347, 1437, 1348, 1436, 1371, 1356, 1369],
+            "spans": [{ "offset": 785, "length": 6 }]
+          },
+          {
+            "content": "16-JUN-19",
+            "polygon": [172, 1386, 301, 1386, 301, 1411, 172, 1411],
+            "spans": [{ "offset": 792, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [429, 1386, 512, 1386, 512, 1411, 429, 1411],
+            "spans": [{ "offset": 802, "length": 5 }]
+          },
+          {
+            "content": "Room Tax",
+            "polygon": [619, 1386, 743, 1387, 743, 1413, 619, 1412],
+            "spans": [{ "offset": 808, "length": 8 }]
+          },
+          {
+            "content": "27.22",
+            "polygon": [1368, 1386, 1434, 1385, 1434, 1408, 1369, 1409],
+            "spans": [{ "offset": 817, "length": 5 }]
+          },
+          {
+            "content": "17-JUN-19",
+            "polygon": [172, 1425, 301, 1425, 301, 1450, 172, 1450],
+            "spans": [{ "offset": 823, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [431, 1425, 512, 1425, 511, 1449, 431, 1448],
+            "spans": [{ "offset": 833, "length": 5 }]
+          },
+          {
+            "content": "Room Chrg - Special Corp",
+            "polygon": [620, 1424, 930, 1424, 930, 1455, 620, 1454],
+            "spans": [{ "offset": 839, "length": 24 }]
+          },
+          {
+            "content": "214.00",
+            "polygon": [1353, 1424, 1434, 1424, 1434, 1447, 1353, 1447],
+            "spans": [{ "offset": 864, "length": 6 }]
+          },
+          {
+            "content": "17-JUN-19",
+            "polygon": [172, 1464, 300, 1465, 299, 1489, 172, 1487],
+            "spans": [{ "offset": 871, "length": 9 }]
+          },
+          {
+            "content": "RT630",
+            "polygon": [429, 1465, 511, 1465, 511, 1488, 429, 1487],
+            "spans": [{ "offset": 881, "length": 5 }]
+          },
+          {
+            "content": "Room Tax",
+            "polygon": [618, 1463, 744, 1464, 743, 1490, 618, 1489],
+            "spans": [{ "offset": 887, "length": 8 }]
+          },
+          {
+            "content": "30.82",
+            "polygon": [1367, 1462, 1436, 1462, 1436, 1486, 1367, 1485],
+            "spans": [{ "offset": 896, "length": 5 }]
+          },
+          {
+            "content": "18-JUN-19",
+            "polygon": [172, 1502, 300, 1502, 300, 1528, 172, 1527],
+            "spans": [{ "offset": 902, "length": 9 }]
+          },
+          {
+            "content": "AX",
+            "polygon": [431, 1504, 467, 1503, 467, 1525, 431, 1525],
+            "spans": [{ "offset": 912, "length": 2 }]
+          },
+          {
+            "content": "American Express-1008",
+            "polygon": [619, 1501, 901, 1501, 901, 1530, 619, 1530],
+            "spans": [{ "offset": 915, "length": 21 }]
+          },
+          {
+            "content": "-1069.66",
+            "polygon": [1652, 1497, 1762, 1496, 1762, 1520, 1653, 1521],
+            "spans": [{ "offset": 937, "length": 8 }]
+          },
+          {
+            "content": "*** For Authorization Purpose Only ***",
+            "polygon": [337, 1540, 764, 1541, 764, 1570, 337, 1568],
+            "spans": [{ "offset": 946, "length": 38 }]
+          },
+          {
+            "content": "xxxxxx1008",
+            "polygon": [334, 1583, 474, 1583, 474, 1604, 334, 1606],
+            "spans": [{ "offset": 985, "length": 10 }]
+          },
+          {
+            "content": "Date",
+            "polygon": [335, 1621, 391, 1621, 391, 1643, 335, 1643],
+            "spans": [{ "offset": 996, "length": 4 }]
+          },
+          {
+            "content": "Time",
+            "polygon": [548, 1620, 608, 1619, 608, 1643, 548, 1643],
+            "spans": [{ "offset": 1001, "length": 4 }]
+          },
+          {
+            "content": "Code",
+            "polygon": [738, 1619, 802, 1619, 802, 1643, 738, 1643],
+            "spans": [{ "offset": 1006, "length": 4 }]
+          },
+          {
+            "content": "Authorized",
+            "polygon": [1016, 1617, 1145, 1617, 1145, 1642, 1016, 1642],
+            "spans": [{ "offset": 1011, "length": 10 }]
+          },
+          {
+            "content": "13-JUN-19",
+            "polygon": [338, 1660, 464, 1659, 465, 1682, 338, 1683],
+            "spans": [{ "offset": 1022, "length": 9 }]
+          },
+          {
+            "content": "09:11",
+            "polygon": [545, 1658, 610, 1658, 611, 1682, 546, 1682],
+            "spans": [{ "offset": 1032, "length": 5 }]
+          },
+          {
+            "content": "182866",
+            "polygon": [739, 1658, 826, 1658, 826, 1682, 739, 1682],
+            "spans": [{ "offset": 1038, "length": 6 }]
+          },
+          {
+            "content": "1391.00",
+            "polygon": [1044, 1657, 1135, 1657, 1135, 1679, 1044, 1678],
+            "spans": [{ "offset": 1045, "length": 7 }]
+          },
+          {
+            "content": "Continued on the next page",
+            "polygon": [826, 2155, 1148, 2154, 1148, 2184, 826, 2185],
+            "spans": [{ "offset": 1053, "length": 26 }]
+          }
+        ],
+        "spans": [{ "offset": 0, "length": 1079 }]
+      }
+    ],
+    "tables": [
+      {
+        "rowCount": 12,
+        "columnCount": 5,
+        "cells": [
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Date",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1062, 317, 1064, 317, 1097, 154, 1096]
+              }
+            ],
+            "spans": [{ "offset": 452, "length": 4 }]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "Reference",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1064, 517, 1064, 517, 1099, 317, 1097]
+              }
+            ],
+            "spans": [{ "offset": 457, "length": 9 }]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 2,
+            "content": "Description",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1064, 1095, 1066, 1095, 1101, 517, 1099]
+              }
+            ],
+            "spans": [{ "offset": 467, "length": 11 }]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 3,
+            "content": "Charges (USD)",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1095, 1066, 1509, 1066, 1509, 1101, 1095, 1101]
+              }
+            ],
+            "spans": [{ "offset": 479, "length": 13 }]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 4,
+            "content": "Credits (USD)",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1066, 1821, 1066, 1821, 1101, 1509, 1101]
+              }
+            ],
+            "spans": [{ "offset": 493, "length": 13 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "13-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1096, 317, 1097, 317, 1143, 154, 1141]
+              }
+            ],
+            "spans": [{ "offset": 507, "length": 9 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1097, 517, 1099, 517, 1145, 317, 1143]
+              }
+            ],
+            "spans": [{ "offset": 517, "length": 5 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 2,
+            "content": "Room Chrg - Special Corp",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1099, 1095, 1101, 1095, 1145, 517, 1145]
+              }
+            ],
+            "spans": [{ "offset": 523, "length": 24 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 3,
+            "content": "214.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1095, 1101, 1509, 1101, 1509, 1145, 1095, 1145]
+              }
+            ],
+            "spans": [{ "offset": 548, "length": 6 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1101, 1821, 1101, 1821, 1145, 1509, 1145]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "13-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1141, 317, 1143, 317, 1183, 154, 1183]
+              }
+            ],
+            "spans": [{ "offset": 555, "length": 9 }]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1143, 517, 1145, 517, 1183, 317, 1183]
+              }
+            ],
+            "spans": [{ "offset": 565, "length": 5 }]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 2,
+            "content": "Room Tax",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1145, 1095, 1145, 1095, 1183, 517, 1183]
+              }
+            ],
+            "spans": [{ "offset": 571, "length": 8 }]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 3,
+            "content": "30.82",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1095, 1145, 1509, 1145, 1509, 1183, 1095, 1183]
+              }
+            ],
+            "spans": [{ "offset": 580, "length": 5 }]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1145, 1821, 1145, 1821, 1183, 1509, 1183]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 0,
+            "content": "14-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1183, 317, 1183, 317, 1222, 154, 1220]
+              }
+            ],
+            "spans": [{ "offset": 586, "length": 9 }]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1183, 517, 1183, 517, 1223, 317, 1222]
+              }
+            ],
+            "spans": [{ "offset": 596, "length": 5 }]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 2,
+            "content": "Room Chrg - Special Corp",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1183, 1095, 1183, 1095, 1223, 517, 1223]
+              }
+            ],
+            "spans": [{ "offset": 602, "length": 24 }]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 3,
+            "content": "159.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1095, 1183, 1509, 1183, 1509, 1223, 1095, 1223]
+              }
+            ],
+            "spans": [{ "offset": 627, "length": 6 }]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1183, 1821, 1183, 1821, 1223, 1509, 1223]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 0,
+            "content": "14-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1220, 317, 1222, 317, 1262, 154, 1262]
+              }
+            ],
+            "spans": [{ "offset": 634, "length": 9 }]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1222, 517, 1223, 517, 1262, 317, 1262]
+              }
+            ],
+            "spans": [{ "offset": 644, "length": 5 }]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 2,
+            "content": "Room Tax",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1223, 1095, 1223, 1095, 1262, 517, 1262]
+              }
+            ],
+            "spans": [{ "offset": 650, "length": 8 }]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 3,
+            "content": "22.90",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1095, 1223, 1509, 1223, 1509, 1262, 1095, 1262]
+              }
+            ],
+            "spans": [{ "offset": 659, "length": 5 }]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1223, 1821, 1223, 1821, 1262, 1509, 1262]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 5,
+            "columnIndex": 0,
+            "content": "15-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1262, 317, 1262, 317, 1302, 154, 1302]
+              }
+            ],
+            "spans": [{ "offset": 665, "length": 9 }]
+          },
+          {
+            "rowIndex": 5,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1262, 517, 1262, 517, 1302, 317, 1302]
+              }
+            ],
+            "spans": [{ "offset": 675, "length": 5 }]
+          },
+          {
+            "rowIndex": 5,
+            "columnIndex": 2,
+            "content": "Room Chrg - Special Corp",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1262, 1095, 1262, 1094, 1302, 517, 1302]
+              }
+            ],
+            "spans": [{ "offset": 681, "length": 24 }]
+          },
+          {
+            "rowIndex": 5,
+            "columnIndex": 3,
+            "content": "159.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1095, 1262, 1509, 1262, 1509, 1301, 1094, 1302]
+              }
+            ],
+            "spans": [{ "offset": 706, "length": 6 }]
+          },
+          {
+            "rowIndex": 5,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1262, 1821, 1262, 1821, 1301, 1509, 1301]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 6,
+            "columnIndex": 0,
+            "content": "15-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1302, 317, 1302, 317, 1341, 154, 1341]
+              }
+            ],
+            "spans": [{ "offset": 713, "length": 9 }]
+          },
+          {
+            "rowIndex": 6,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1302, 517, 1302, 517, 1341, 317, 1341]
+              }
+            ],
+            "spans": [{ "offset": 723, "length": 5 }]
+          },
+          {
+            "rowIndex": 6,
+            "columnIndex": 2,
+            "content": "Room Tax",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1302, 1094, 1302, 1094, 1339, 517, 1341]
+              }
+            ],
+            "spans": [{ "offset": 729, "length": 8 }]
+          },
+          {
+            "rowIndex": 6,
+            "columnIndex": 3,
+            "content": "22.90",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1094, 1302, 1509, 1301, 1509, 1339, 1094, 1339]
+              }
+            ],
+            "spans": [{ "offset": 738, "length": 5 }]
+          },
+          {
+            "rowIndex": 6,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1301, 1821, 1301, 1821, 1339, 1509, 1339]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 7,
+            "columnIndex": 0,
+            "content": "16-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1341, 317, 1341, 317, 1379, 154, 1379]
+              }
+            ],
+            "spans": [{ "offset": 744, "length": 9 }]
+          },
+          {
+            "rowIndex": 7,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1341, 517, 1341, 517, 1379, 317, 1379]
+              }
+            ],
+            "spans": [{ "offset": 754, "length": 5 }]
+          },
+          {
+            "rowIndex": 7,
+            "columnIndex": 2,
+            "content": "Room Chrg - Special Corp",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1341, 1094, 1339, 1094, 1379, 517, 1379]
+              }
+            ],
+            "spans": [{ "offset": 760, "length": 24 }]
+          },
+          {
+            "rowIndex": 7,
+            "columnIndex": 3,
+            "content": "189.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1094, 1339, 1509, 1339, 1509, 1378, 1094, 1379]
+              }
+            ],
+            "spans": [{ "offset": 785, "length": 6 }]
+          },
+          {
+            "rowIndex": 7,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1339, 1821, 1339, 1821, 1378, 1509, 1378]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 8,
+            "columnIndex": 0,
+            "content": "16-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1379, 317, 1379, 317, 1418, 154, 1418]
+              }
+            ],
+            "spans": [{ "offset": 792, "length": 9 }]
+          },
+          {
+            "rowIndex": 8,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1379, 517, 1379, 517, 1418, 317, 1418]
+              }
+            ],
+            "spans": [{ "offset": 802, "length": 5 }]
+          },
+          {
+            "rowIndex": 8,
+            "columnIndex": 2,
+            "content": "Room Tax",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1379, 1094, 1379, 1094, 1416, 517, 1418]
+              }
+            ],
+            "spans": [{ "offset": 808, "length": 8 }]
+          },
+          {
+            "rowIndex": 8,
+            "columnIndex": 3,
+            "content": "27.22",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1094, 1379, 1509, 1378, 1509, 1416, 1094, 1416]
+              }
+            ],
+            "spans": [{ "offset": 817, "length": 5 }]
+          },
+          {
+            "rowIndex": 8,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1378, 1821, 1378, 1821, 1416, 1509, 1416]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 9,
+            "columnIndex": 0,
+            "content": "17-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1418, 317, 1418, 317, 1456, 154, 1456]
+              }
+            ],
+            "spans": [{ "offset": 823, "length": 9 }]
+          },
+          {
+            "rowIndex": 9,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1418, 517, 1418, 517, 1456, 317, 1456]
+              }
+            ],
+            "spans": [{ "offset": 833, "length": 5 }]
+          },
+          {
+            "rowIndex": 9,
+            "columnIndex": 2,
+            "content": "Room Chrg - Special Corp",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1418, 1094, 1416, 1094, 1456, 517, 1456]
+              }
+            ],
+            "spans": [{ "offset": 839, "length": 24 }]
+          },
+          {
+            "rowIndex": 9,
+            "columnIndex": 3,
+            "content": "214.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1094, 1416, 1509, 1416, 1509, 1455, 1094, 1456]
+              }
+            ],
+            "spans": [{ "offset": 864, "length": 6 }]
+          },
+          {
+            "rowIndex": 9,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1416, 1821, 1416, 1821, 1455, 1509, 1455]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 10,
+            "columnIndex": 0,
+            "content": "17-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [154, 1456, 317, 1456, 315, 1495, 152, 1495]
+              }
+            ],
+            "spans": [{ "offset": 871, "length": 9 }]
+          },
+          {
+            "rowIndex": 10,
+            "columnIndex": 1,
+            "content": "RT630",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [317, 1456, 517, 1456, 517, 1495, 315, 1495]
+              }
+            ],
+            "spans": [{ "offset": 881, "length": 5 }]
+          },
+          {
+            "rowIndex": 10,
+            "columnIndex": 2,
+            "content": "Room Tax",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1456, 1094, 1456, 1094, 1493, 517, 1495]
+              }
+            ],
+            "spans": [{ "offset": 887, "length": 8 }]
+          },
+          {
+            "rowIndex": 10,
+            "columnIndex": 3,
+            "content": "30.82",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1094, 1456, 1509, 1455, 1509, 1493, 1094, 1493]
+              }
+            ],
+            "spans": [{ "offset": 896, "length": 5 }]
+          },
+          {
+            "rowIndex": 10,
+            "columnIndex": 4,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1455, 1821, 1455, 1821, 1491, 1509, 1493]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 11,
+            "columnIndex": 0,
+            "content": "18-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [152, 1495, 315, 1495, 315, 1539, 152, 1540]
+              }
+            ],
+            "spans": [{ "offset": 902, "length": 9 }]
+          },
+          {
+            "rowIndex": 11,
+            "columnIndex": 1,
+            "content": "AX",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [315, 1495, 517, 1495, 517, 1539, 315, 1539]
+              }
+            ],
+            "spans": [{ "offset": 912, "length": 2 }]
+          },
+          {
+            "rowIndex": 11,
+            "columnIndex": 2,
+            "content": "American Express-1008",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [517, 1495, 1094, 1493, 1094, 1539, 517, 1539]
+              }
+            ],
+            "spans": [{ "offset": 915, "length": 21 }]
+          },
+          {
+            "rowIndex": 11,
+            "columnIndex": 3,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1094, 1493, 1509, 1493, 1509, 1537, 1094, 1539]
+              }
+            ],
+            "spans": []
+          },
+          {
+            "rowIndex": 11,
+            "columnIndex": 4,
+            "content": "-1069.66",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1509, 1493, 1821, 1491, 1821, 1537, 1509, 1537]
+              }
+            ],
+            "spans": [{ "offset": 937, "length": 8 }]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [162, 1062, 1871, 1062, 1871, 1540, 163, 1541]
+          }
+        ],
+        "spans": [{ "offset": 452, "length": 493 }]
+      },
+      {
+        "rowCount": 2,
+        "columnCount": 4,
+        "cells": [
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Date",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [322, 1609, 506, 1608, 506, 1651, 322, 1652]
+              }
+            ],
+            "spans": [{ "offset": 996, "length": 4 }]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "Time",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [506, 1608, 674, 1608, 674, 1651, 506, 1651]
+              }
+            ],
+            "spans": [{ "offset": 1001, "length": 4 }]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 2,
+            "content": "Code",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [674, 1608, 921, 1608, 921, 1650, 674, 1651]
+              }
+            ],
+            "spans": [{ "offset": 1006, "length": 4 }]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 3,
+            "content": "Authorized",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [921, 1608, 1164, 1607, 1164, 1649, 921, 1650]
+              }
+            ],
+            "spans": [{ "offset": 1011, "length": 10 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "13-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [322, 1652, 506, 1651, 506, 1696, 322, 1697]
+              }
+            ],
+            "spans": [{ "offset": 1022, "length": 9 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "09:11",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [506, 1651, 674, 1651, 674, 1695, 506, 1696]
+              }
+            ],
+            "spans": [{ "offset": 1032, "length": 5 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 2,
+            "content": "182866",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [674, 1651, 921, 1650, 922, 1695, 674, 1695]
+              }
+            ],
+            "spans": [{ "offset": 1038, "length": 6 }]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 3,
+            "content": "1391.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [921, 1650, 1164, 1649, 1165, 1694, 922, 1695]
+              }
+            ],
+            "spans": [{ "offset": 1045, "length": 7 }]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [326, 1611, 1176, 1610, 1177, 1697, 327, 1697]
+          }
+        ],
+        "spans": [{ "offset": 996, "length": 56 }]
+      }
+    ],
+    "styles": [],
+    "documents": [
+      {
+        "docType": "invoice",
+        "boundingRegions": [
+          { "pageNumber": 1, "polygon": [0, 0, 2066, 0, 2066, 2702, 0, 2702] }
+        ],
+        "fields": {
+          "CustomerAddress": {
+            "type": "address",
+            "content": "Walter Gropius-Str.5\nMUNICH, 80807\nGermany",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [172, 637, 411, 640, 410, 748, 171, 745]
+              }
+            ],
+            "confidence": 0.889,
+            "spans": [
+              { "offset": 217, "length": 20 },
+              { "offset": 251, "length": 13 },
+              { "offset": 295, "length": 7 }
+            ],
+            "valueAddress": {
+              "postalCode": "80807",
+              "city": "MUNICH",
+              "countryRegion": "Germany",
+              "streetAddress": "",
+              "house": "Walter Gropius-Str.5"
+            }
+          },
+          "CustomerAddressRecipient": {
+            "type": "string",
+            "valueString": "ROBERT EICHENSEER\nMicrosoft Deutschland GmbH",
+            "content": "ROBERT EICHENSEER\nMicrosoft Deutschland GmbH",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [172, 557, 514, 562, 513, 629, 171, 624]
+              }
+            ],
+            "confidence": 0.683,
+            "spans": [
+              { "offset": 134, "length": 17 },
+              { "offset": 168, "length": 26 }
+            ]
+          },
+          "CustomerId": {
+            "type": "string",
+            "valueString": "627816",
+            "content": "627816",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1308, 609, 1394, 610, 1394, 636, 1308, 635]
+              }
+            ],
+            "confidence": 0.447,
+            "spans": [{ "offset": 210, "length": 6 }]
+          },
+          "CustomerName": {
+            "type": "string",
+            "valueString": "ROBERT EICHENSEER\nMicrosoft Deutschland GmbH",
+            "content": "ROBERT EICHENSEER\nMicrosoft Deutschland GmbH",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [172, 557, 514, 562, 513, 629, 171, 624]
+              }
+            ],
+            "confidence": 0.683,
+            "spans": [
+              { "offset": 134, "length": 17 },
+              { "offset": 168, "length": 26 }
+            ]
+          },
+          "Items": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 214.0, "currencyCode": "USD" },
+                    "content": "214.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1361, 1115, 1437, 1115, 1438, 1140, 1362, 1139
+                        ]
+                      }
+                    ],
+                    "confidence": 0.888,
+                    "spans": [{ "offset": 548, "length": 6 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-13",
+                    "content": "13-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [173, 1109, 300, 1110, 300, 1136, 174, 1135]
+                      }
+                    ],
+                    "confidence": 0.898,
+                    "spans": [{ "offset": 507, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Chrg - Special Corp",
+                    "content": "Room Chrg - Special Corp",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [619, 1111, 933, 1111, 933, 1144, 619, 1144]
+                      }
+                    ],
+                    "confidence": 0.877,
+                    "spans": [{ "offset": 523, "length": 24 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [430, 1110, 510, 1111, 510, 1137, 431, 1136]
+                      }
+                    ],
+                    "confidence": 0.716,
+                    "spans": [{ "offset": 517, "length": 5 }]
+                  }
+                },
+                "content": "13-JUN-19\nRT630\nRoom Chrg - Special Corp\n214.00",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [173, 1105, 1438, 1115, 1438, 1149, 173, 1140]
+                  }
+                ],
+                "confidence": 0.922,
+                "spans": [{ "offset": 507, "length": 47 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 30.82, "currencyCode": "USD" },
+                    "content": "30.82",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1373, 1154, 1439, 1153, 1439, 1179, 1373, 1177
+                        ]
+                      }
+                    ],
+                    "confidence": 0.88,
+                    "spans": [{ "offset": 580, "length": 5 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-13",
+                    "content": "13-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [174, 1150, 299, 1150, 300, 1175, 175, 1174]
+                      }
+                    ],
+                    "confidence": 0.895,
+                    "spans": [{ "offset": 555, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Tax",
+                    "content": "Room Tax",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [622, 1151, 743, 1151, 743, 1179, 622, 1179]
+                      }
+                    ],
+                    "confidence": 0.886,
+                    "spans": [{ "offset": 571, "length": 8 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [431, 1151, 510, 1151, 510, 1177, 432, 1176]
+                      }
+                    ],
+                    "confidence": 0.721,
+                    "spans": [{ "offset": 565, "length": 5 }]
+                  }
+                },
+                "content": "13-JUN-19\nRT630\nRoom Tax\n30.82",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [174, 1148, 1439, 1153, 1439, 1182, 174, 1177]
+                  }
+                ],
+                "confidence": 0.913,
+                "spans": [{ "offset": 555, "length": 30 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 159.0, "currencyCode": "USD" },
+                    "content": "159.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1360, 1194, 1436, 1193, 1436, 1217, 1361, 1216
+                        ]
+                      }
+                    ],
+                    "confidence": 0.888,
+                    "spans": [{ "offset": 627, "length": 6 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-14",
+                    "content": "14-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [174, 1189, 300, 1189, 300, 1215, 175, 1215]
+                      }
+                    ],
+                    "confidence": 0.904,
+                    "spans": [{ "offset": 586, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Chrg - Special Corp",
+                    "content": "Room Chrg - Special Corp",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [620, 1189, 932, 1189, 932, 1222, 620, 1222]
+                      }
+                    ],
+                    "confidence": 0.886,
+                    "spans": [{ "offset": 602, "length": 24 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [431, 1190, 510, 1190, 509, 1217, 431, 1215]
+                      }
+                    ],
+                    "confidence": 0.72,
+                    "spans": [{ "offset": 596, "length": 5 }]
+                  }
+                },
+                "content": "14-JUN-19\nRT630\nRoom Chrg - Special Corp\n159.00",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [174, 1189, 1436, 1189, 1436, 1222, 174, 1222]
+                  }
+                ],
+                "confidence": 0.923,
+                "spans": [{ "offset": 586, "length": 47 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 22.9, "currencyCode": "USD" },
+                    "content": "22.90",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1374, 1231, 1435, 1231, 1435, 1255, 1374, 1255
+                        ]
+                      }
+                    ],
+                    "confidence": 0.886,
+                    "spans": [{ "offset": 659, "length": 5 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-14",
+                    "content": "14-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [175, 1230, 300, 1230, 300, 1255, 175, 1253]
+                      }
+                    ],
+                    "confidence": 0.911,
+                    "spans": [{ "offset": 634, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Tax",
+                    "content": "Room Tax",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [620, 1229, 744, 1231, 744, 1260, 620, 1258]
+                      }
+                    ],
+                    "confidence": 0.889,
+                    "spans": [{ "offset": 650, "length": 8 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [432, 1230, 510, 1230, 510, 1257, 432, 1255]
+                      }
+                    ],
+                    "confidence": 0.72,
+                    "spans": [{ "offset": 644, "length": 5 }]
+                  }
+                },
+                "content": "14-JUN-19\nRT630\nRoom Tax\n22.90",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [175, 1221, 1435, 1231, 1435, 1265, 175, 1254]
+                  }
+                ],
+                "confidence": 0.914,
+                "spans": [{ "offset": 634, "length": 30 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 159.0, "currencyCode": "USD" },
+                    "content": "159.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1359, 1271, 1435, 1271, 1435, 1294, 1359, 1294
+                        ]
+                      }
+                    ],
+                    "confidence": 0.89,
+                    "spans": [{ "offset": 706, "length": 6 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-15",
+                    "content": "15-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [175, 1268, 301, 1268, 301, 1294, 175, 1294]
+                      }
+                    ],
+                    "confidence": 0.906,
+                    "spans": [{ "offset": 665, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Chrg - Special Corp",
+                    "content": "Room Chrg - Special Corp",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [620, 1268, 930, 1268, 930, 1302, 620, 1302]
+                      }
+                    ],
+                    "confidence": 0.882,
+                    "spans": [{ "offset": 681, "length": 24 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [431, 1269, 511, 1269, 511, 1295, 431, 1295]
+                      }
+                    ],
+                    "confidence": 0.721,
+                    "spans": [{ "offset": 675, "length": 5 }]
+                  }
+                },
+                "content": "15-JUN-19\nRT630\nRoom Chrg - Special Corp\n159.00",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [175, 1268, 1435, 1268, 1435, 1302, 175, 1302]
+                  }
+                ],
+                "confidence": 0.922,
+                "spans": [{ "offset": 665, "length": 47 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 22.9, "currencyCode": "USD" },
+                    "content": "22.90",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1372, 1309, 1434, 1310, 1434, 1333, 1373, 1332
+                        ]
+                      }
+                    ],
+                    "confidence": 0.885,
+                    "spans": [{ "offset": 738, "length": 5 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-15",
+                    "content": "15-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [174, 1308, 300, 1308, 300, 1334, 175, 1333]
+                      }
+                    ],
+                    "confidence": 0.902,
+                    "spans": [{ "offset": 713, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Tax",
+                    "content": "Room Tax",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [621, 1308, 744, 1310, 744, 1337, 621, 1336]
+                      }
+                    ],
+                    "confidence": 0.887,
+                    "spans": [{ "offset": 729, "length": 8 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [432, 1308, 510, 1309, 510, 1334, 432, 1333]
+                      }
+                    ],
+                    "confidence": 0.721,
+                    "spans": [{ "offset": 723, "length": 5 }]
+                  }
+                },
+                "content": "15-JUN-19\nRT630\nRoom Tax\n22.90",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [174, 1294, 1434, 1310, 1434, 1348, 174, 1333]
+                  }
+                ],
+                "confidence": 0.913,
+                "spans": [{ "offset": 713, "length": 30 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 189.0, "currencyCode": "USD" },
+                    "content": "189.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1359, 1347, 1433, 1349, 1433, 1372, 1359, 1370
+                        ]
+                      }
+                    ],
+                    "confidence": 0.89,
+                    "spans": [{ "offset": 785, "length": 6 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-16",
+                    "content": "16-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [174, 1347, 299, 1347, 299, 1373, 175, 1371]
+                      }
+                    ],
+                    "confidence": 0.898,
+                    "spans": [{ "offset": 744, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Chrg - Special Corp",
+                    "content": "Room Chrg - Special Corp",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [621, 1347, 928, 1347, 928, 1378, 621, 1378]
+                      }
+                    ],
+                    "confidence": 0.884,
+                    "spans": [{ "offset": 760, "length": 24 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [432, 1348, 509, 1347, 510, 1373, 432, 1373]
+                      }
+                    ],
+                    "confidence": 0.721,
+                    "spans": [{ "offset": 754, "length": 5 }]
+                  }
+                },
+                "content": "16-JUN-19\nRT630\nRoom Chrg - Special Corp\n189.00",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [174, 1347, 1433, 1347, 1433, 1378, 174, 1378]
+                  }
+                ],
+                "confidence": 0.922,
+                "spans": [{ "offset": 744, "length": 47 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 27.22, "currencyCode": "USD" },
+                    "content": "27.22",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1372, 1386, 1434, 1385, 1434, 1408, 1372, 1409
+                        ]
+                      }
+                    ],
+                    "confidence": 0.886,
+                    "spans": [{ "offset": 817, "length": 5 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-16",
+                    "content": "16-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [174, 1387, 298, 1386, 298, 1412, 175, 1411]
+                      }
+                    ],
+                    "confidence": 0.9,
+                    "spans": [{ "offset": 792, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Tax",
+                    "content": "Room Tax",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [621, 1385, 742, 1387, 742, 1415, 621, 1413]
+                      }
+                    ],
+                    "confidence": 0.888,
+                    "spans": [{ "offset": 808, "length": 8 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [431, 1387, 509, 1387, 509, 1412, 432, 1412]
+                      }
+                    ],
+                    "confidence": 0.718,
+                    "spans": [{ "offset": 802, "length": 5 }]
+                  }
+                },
+                "content": "16-JUN-19\nRT630\nRoom Tax\n27.22",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [174, 1385, 1434, 1385, 1434, 1414, 174, 1414]
+                  }
+                ],
+                "confidence": 0.914,
+                "spans": [{ "offset": 792, "length": 30 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 214.0, "currencyCode": "USD" },
+                    "content": "214.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1358, 1424, 1432, 1424, 1432, 1448, 1358, 1448
+                        ]
+                      }
+                    ],
+                    "confidence": 0.889,
+                    "spans": [{ "offset": 864, "length": 6 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-17",
+                    "content": "17-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [174, 1427, 298, 1426, 298, 1451, 174, 1450]
+                      }
+                    ],
+                    "confidence": 0.918,
+                    "spans": [{ "offset": 823, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Chrg - Special Corp",
+                    "content": "Room Chrg - Special Corp",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [620, 1424, 930, 1424, 930, 1455, 620, 1455]
+                      }
+                    ],
+                    "confidence": 0.875,
+                    "spans": [{ "offset": 839, "length": 24 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [431, 1426, 507, 1426, 508, 1450, 431, 1449]
+                      }
+                    ],
+                    "confidence": 0.717,
+                    "spans": [{ "offset": 833, "length": 5 }]
+                  }
+                },
+                "content": "17-JUN-19\nRT630\nRoom Chrg - Special Corp\n214.00",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [174, 1424, 1432, 1424, 1432, 1455, 174, 1455]
+                  }
+                ],
+                "confidence": 0.921,
+                "spans": [{ "offset": 823, "length": 47 }]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": { "amount": 30.82, "currencyCode": "USD" },
+                    "content": "30.82",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1370, 1463, 1435, 1463, 1435, 1487, 1371, 1486
+                        ]
+                      }
+                    ],
+                    "confidence": 0.883,
+                    "spans": [{ "offset": 896, "length": 5 }]
+                  },
+                  "Date": {
+                    "type": "date",
+                    "valueDate": "2019-06-17",
+                    "content": "17-JUN-19",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [173, 1465, 297, 1465, 298, 1490, 174, 1488]
+                      }
+                    ],
+                    "confidence": 0.902,
+                    "spans": [{ "offset": 871, "length": 9 }]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Room Tax",
+                    "content": "Room Tax",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [620, 1463, 741, 1465, 741, 1492, 620, 1490]
+                      }
+                    ],
+                    "confidence": 0.888,
+                    "spans": [{ "offset": 887, "length": 8 }]
+                  },
+                  "ProductCode": {
+                    "type": "string",
+                    "valueString": "RT630",
+                    "content": "RT630",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [431, 1465, 507, 1465, 507, 1489, 432, 1488]
+                      }
+                    ],
+                    "confidence": 0.72,
+                    "spans": [{ "offset": 881, "length": 5 }]
+                  }
+                },
+                "content": "17-JUN-19\nRT630\nRoom Tax\n30.82",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [173, 1453, 1435, 1463, 1435, 1499, 173, 1489]
+                  }
+                ],
+                "confidence": 0.913,
+                "spans": [{ "offset": 871, "length": 30 }]
+              }
+            ]
+          },
+          "ServiceEndDate": {
+            "type": "date",
+            "valueDate": "2019-06-18",
+            "content": "18-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1310, 729, 1431, 729, 1431, 751, 1310, 752]
+              }
+            ],
+            "confidence": 0.746,
+            "spans": [{ "offset": 317, "length": 9 }]
+          },
+          "ServiceStartDate": {
+            "type": "date",
+            "valueDate": "2019-06-13",
+            "content": "13-JUN-19",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1310, 688, 1431, 690, 1431, 713, 1311, 713]
+              }
+            ],
+            "confidence": 0.789,
+            "spans": [{ "offset": 279, "length": 9 }]
+          },
+          "VendorAddress": {
+            "type": "address",
+            "content": "100 112th Avenue NE\nBellevue, WA 98004\nUnited States",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [173, 315, 427, 321, 424, 432, 170, 426]
+              }
+            ],
+            "confidence": 0.878,
+            "spans": [
+              { "offset": 24, "length": 19 },
+              { "offset": 46, "length": 32 }
+            ],
+            "valueAddress": {
+              "houseNumber": "100",
+              "road": "112th Avenue NE",
+              "postalCode": "98004",
+              "city": "Bellevue",
+              "state": "WA",
+              "countryRegion": "United States",
+              "streetAddress": "100 112th Avenue NE"
+            }
+          },
+          "VendorAddressRecipient": {
+            "type": "string",
+            "valueString": "Sheraton Bellevue Hotel",
+            "content": "Sheraton Bellevue Hotel",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [174, 273, 463, 283, 462, 315, 173, 305]
+              }
+            ],
+            "confidence": 0.924,
+            "spans": [{ "offset": 0, "length": 23 }]
+          },
+          "VendorName": {
+            "type": "string",
+            "valueString": "SHERATON\nEST. 1937",
+            "content": "SHERATON\nEST. 1937",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [1366, 411, 1709, 413, 1709, 500, 1366, 498]
+              }
+            ],
+            "confidence": 0.414,
+            "spans": [
+              { "offset": 79, "length": 8 },
+              { "offset": 124, "length": 9 }
+            ]
+          }
+        },
+        "confidence": 1,
+        "spans": [{ "offset": 0, "length": 1079 }]
+      }
+    ]
+  }
+}

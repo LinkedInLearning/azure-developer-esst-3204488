@@ -1,0 +1,66 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login 
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+################################################
+# Create Cosmos DB Account
+################################################
+$dbAccountName = "lilazure4devs"
+$dbConsistencyLevel = "Eventual"
+
+az cosmosdb create `
+    --name $dbAccountName `
+    --resource-group $resourceGroup `
+    --default-consistency-level $dbConsistencyLevel `
+    --locations regionName="$location" failoverPriority=0 isZoneRedundant=False
+    
+################################################
+# Get Cosmos DB Account Key & Endpoint
+################################################
+$dbAccountKey = $( `        
+    az cosmosdb keys list `
+        --name $dbAccountName `
+        --resource-group $resourceGroup `
+        --type keys `
+        --query primaryMasterKey `
+        --output tsv `
+) 
+
+$dbAccountEndpoint = $( `
+    az cosmosdb show `
+        --name $dbAccountName `
+        --resource-group $resourceGroup `
+        --query documentEndpoint `
+        --output tsv `
+)
+################################################
+# Create Configuration File
+################################################
+$configurationFile = "./02_Data/01_CosmosDB/CreateEnv/Configuration.env"
+
+# Add line to file
+Add-Content -Path $configurationFile -Value "LI4DEVS.COSMOS.DBACCOUNTKEY=$dbAccountKey"
+Add-Content -Path $configurationFile -Value "LI4DEVS.COSMOS.DBACCOUNTENDPOINT=$dbAccountEndpoint"

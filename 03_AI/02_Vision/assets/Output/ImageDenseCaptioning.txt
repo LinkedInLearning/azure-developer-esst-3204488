@@ -1,0 +1,40 @@
+Content: a statue of a mermaid on a rock in front of a body of water 
+Confidence: 0.8463 
+Bounding box: {X=0,Y=0,Width=4032,Height=1960} 
+
+Content: a statue of a woman sitting on a rock 
+Confidence: 0.8583 
+Bounding box: {X=1471,Y=895,Width=473,Height=558} 
+
+Content: a statue of a mermaid sitting on a rock in front of a body of water 
+Confidence: 0.8560 
+Bounding box: {X=0,Y=404,Width=3984,Height=1490} 
+
+Content: a statue of a mermaid sitting on a rock 
+Confidence: 0.9288 
+Bounding box: {X=1332,Y=1324,Width=658,Height=450} 
+
+Content: a large boat parked on a dock 
+Confidence: 0.6526 
+Bounding box: {X=2238,Y=240,Width=416,Height=261} 
+
+Content: a black animal in the water 
+Confidence: 0.6389 
+Bounding box: {X=2518,Y=1417,Width=298,Height=142} 
+
+Content: a blurry image of a flag 
+Confidence: 0.7539 
+Bounding box: {X=3874,Y=177,Width=98,Height=114} 
+
+Content: a cloudy sky with clouds 
+Confidence: 0.6168 
+Bounding box: {X=14,Y=0,Width=3917,Height=352} 
+
+Content: a large white ship in water 
+Confidence: 0.6299 
+Bounding box: {X=417,Y=314,Width=386,Height=170} 
+
+Content: a statue of a mermaid sitting on a rock 
+Confidence: 0.9099 
+Bounding box: {X=1329,Y=876,Width=652,Height=869} 
+

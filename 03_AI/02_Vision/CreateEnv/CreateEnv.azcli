@@ -1,0 +1,97 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login 
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]" 
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+################################################
+# Create Document Intelligence
+################################################
+$diName = "lilDocumentService"
+$diSku = "S0"
+$aiKind = "FormRecognizer"
+
+az cognitiveservices account create `
+    --name $diName `
+    --resource-group $resourceGroup `
+    --location $location `
+    --kind $aiKind `
+    --sku $diSku
+
+$diKey = ( `
+    az cognitiveservices account keys list `
+    --name $diName `
+    --resource-group $resourceGroup `
+    --query key1 `
+    --output tsv
+)
+
+$diEndpoint = (
+    az cognitiveservices account show `
+        --name $diName `
+        --resource-group $resourceGroup `
+        --query properties.endpoints.FormRecognizer `
+)
+
+
+################################################
+# Create AI Services
+################################################
+$aiName = "lilAIService"
+$aiKind = "CognitiveServices"
+$aiSku = "S0"
+
+az cognitiveservices account create `
+    --name $aiName `
+    --resource-group $resourceGroup `
+    --location $location `
+    --kind $aiKind `
+    --sku $aiSku
+
+
+$aiKey = ( `
+    az cognitiveservices account keys list `
+    --name $aiName `
+    --resource-group $resourceGroup `
+    --query key1 `
+    --output tsv
+)
+
+$visionEndpoint = ((
+    az cognitiveservices account show `
+        --name $aiName `
+        --resource-group $resourceGroup `
+        --query properties.endpoints `
+) | ConvertFrom-Json)."Computer Vision"
+
+################################################
+# Create Configuration File
+################################################
+$configurationFile = "./03_AI/02_Vision/CreateEnv/Configuration.env"
+
+# Add line to file
+Add-Content -Path $configurationFile -Value "LI4DEVS.VISION.DIKEY=$diKey"
+Add-Content -Path $configurationFile -Value "LI4DEVS.VISION.DIENDPOINT=$diEndpoint"
+Add-Content -Path $configurationFile -Value "LI4DEVS.VISION.AIKEY=$aiKey"
+Add-Content -Path $configurationFile -Value "LI4DEVS.VISION.VISIONENDPOINT=$visionEndpoint"

@@ -1,0 +1,67 @@
+################################################
+# Logon to Azure; Get, Set Azure subscription
+################################################
+# Login to subscription
+az login
+
+# Retrieve default subscription id
+$subscriptionId = (
+    (
+        az account list `
+            --query "[?isDefault]"
+    ) | ConvertFrom-Json
+).id
+
+# Set Subscription
+az account set --subscription $subscriptionId
+
+################################################
+# Create ResourceGroup
+################################################
+$resourceGroup = "LiL.Azure4Devs"
+$location = "WestEurope"
+
+az group create `
+    --location $location `
+    --resource-group $resourceGroup
+
+################################################
+# Create App Service Plan
+################################################
+$appServicePlan = "LiL.Azure4Devs.AppServicePlan"
+$appServicePlanSku = "B1"
+$webAppName = "LiL02AppServiceWebApp"
+
+az appservice plan create `
+    --name $appServicePlan `
+    --resource-group $resourceGroup `
+    --sku $appServicePlanSku `
+    --is-linux
+
+az webapp create `
+    --name $webAppName `
+    --resource-group $resourceGroup `
+    --plan $appServicePlan `
+    --runtime "PHP:8.2" 
+    
+az webapp list `
+    --resource-group $resourceGroup `
+    --query "[].{hostName: defaultHostName, state: state}" `
+    --output tsv
+
+################################################
+# Configure / Trigger GitHub Deployment
+################################################
+$gitrepo = "https://github.com/Azure-Samples/php-docs-hello-world"
+
+az webapp deployment source config `
+    --name $webAppName `
+    --resource-group $resourceGroup `
+    --repo-url $gitrepo `
+    --branch master `
+    --manual-integration
+
+# Trigger new deployment
+az webapp deployment source sync `
+    --name $webAppName `
+    --resource-group $resourceGroup

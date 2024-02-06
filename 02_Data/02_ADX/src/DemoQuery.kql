@@ -1,0 +1,34 @@
+//Query
+Telemetry
+| where TimeStamp > datetime(2023-03-27) 
+| where OilPressure < 3
+| summarize FaultyEvents=count() by DeviceId
+| project FaultyEvents, DeviceId
+
+Telemetry
+| summarize event_count=count() by bin(TimeStamp, 10m)
+| where TimeStamp > datetime(2023-03-27)
+| render timechart  
+
+Telemetry
+| summarize event_count=count() by bin(TimeStamp, 10m)
+| where TimeStamp > datetime(2023-03-27)
+| render columnchart   
+
+Telemetry
+| where TimeStamp > datetime(2023-03-27)
+| project TimeStamp, OilPressure, EnergyConsumption
+| where EnergyConsumption > 5
+| render timechart
+
+Telemetry
+| where TimeStamp > datetime(2023-03-27)
+| project TimeStamp, OilPressure, EnergyConsumption
+| take 100
+| render timechart
+
+Telemetry
+| summarize event_count=count() by DeviceId
+
+EXPLAIN
+ Select DeviceId from Telemetry
